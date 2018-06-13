@@ -35,7 +35,7 @@ all.onclick = function(){
 map.onclick = function(){
     video.style.opacity = "0";
     borders();
-    viewer.style.backgroundImage= "url('esquema.png')";
+    viewer.style.backgroundImage= "url('ESQUEMA.png')";
     map.style.border = "solid gray";
 }
 fourcolors.onclick = function(){
