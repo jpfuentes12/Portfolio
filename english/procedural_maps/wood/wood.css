@@ -1,0 +1,713 @@
+#scene{
+    position: relative;
+    z-index:0 ;
+    width: 1900px;
+    height: 1550px;
+    background-image: url(../../../resources/subscene_bg_3.png);
+
+}
+#english{
+    position: absolute;
+    z-index: 2;
+    width: 50px;
+    height: 34px;
+    background-image: url(../../../resources/uk.png);
+    filter: grayscale(50%);
+    background-size: 100%;
+    margin-left: 130px;
+    margin-top: 10px;
+    border-radius: 9px;
+    border: solid gold;
+    opacity: 0;
+    animation: appear 2s 3.2s, appear_move 2s 5.2s infinite;
+}
+#spanish{
+    position: absolute;
+    z-index: 2;
+    width: 50px;
+    height: 33px;
+    background-image: url(../../../resources/spain.png);
+    filter: grayscale(50%);
+    background-size: 100%;
+    margin-left: 210px;
+    margin-top: 15px;
+    opacity: 0;
+    animation: appear 2s 3.4s, appear_move 2s 5.4s infinite;
+}
+#help{
+    position: absolute;
+    z-index: 2;
+    width: 50px;
+    height: 50px;
+    background-image: url(../../../resources/help.png);
+    background-size: 100%;
+    filter: saturate(6);
+    margin-left: 1820px;
+    margin-top: 15px;
+    transition: 1s;
+    opacity: 0;
+    animation: appear 2s 4s, appear_move 2s 6s infinite;
+}
+#help:hover{
+    filter: brightness(2);
+    transition: 1s;
+}
+#menu{
+    position: absolute;
+    z-index: 3;
+    width: 85px;
+    height: 49px;
+    background-image: url(../../../resources/menu.png);
+    background-size: 100%;
+    margin-left: 15px;
+    margin-top: 5px;
+    opacity: 0;
+    animation: appear 2s 3s, appear_move 2s 5s infinite;
+}
+
+#menu_cont{
+    position: absolute;
+    z-index: 2;
+    width: 120px;
+    height: 820px;
+    margin-top: -900px;
+    opacity: 0;
+    transition: 0.5s;
+    background-color: black;
+}
+#home{
+    position: absolute;
+    z-index: 6;
+    background: url(../../../resources/animation2.gif);
+    background-size: 100%;
+    width: 100px;
+    height: 100px;
+    margin-top: 0px;
+    margin-left: 14px;
+}
+#home_txt{
+    position: absolute;
+    z-index: 6;
+    width: 70px;
+    height: 20px;
+    background-image: url(../../../resources/home.png);
+    background-size: 100%;
+    margin-top: 35px;
+    margin-left: 60px;
+    transform: scale(0.2);
+    opacity: 0;
+    transition: 0.5s;
+}
+#home:hover + #home_txt{
+    transform: scale(1) translate(60px);
+    opacity: 1;
+    transition: 0.5s; 
+}
+#animation{
+    position: absolute;
+    z-index: 6;
+    background: url(../../../resources/animation.gif);
+    background-size: 100%;
+    width: 120px;
+    height: 120px;
+    margin-top: 90px;
+    
+
+}
+#animation:hover + #animation_txt{
+    transform: scale(1) translate(60px);
+    opacity: 1;
+    transition: 0.5s;
+}
+#animation_txt{
+    position: absolute;
+    z-index: 6;
+    width: 110px;
+    height: 20px;
+    background-image: url(../../../resources/animation_txt.png);
+    background-size: 100%;
+    margin-top: 130px;
+    margin-left: 60px;
+    transform: scale(0.2);
+    opacity: 0;
+    transition: 0.5s;
+}
+#illustration{
+    position: absolute;
+    z-index: 5;
+    background: url(../../../resources/illustration.gif);
+    background-size: 100%;
+    width: 120px;
+    height: 100px;
+    margin-top: 160px;
+    margin-left: 0px;
+
+}
+
+#illustration_txt{
+    position: absolute;
+    z-index: 6;
+    width: 130px;
+    height: 20px;
+    background-image: url(../../../resources/illustration_txt.png);
+    background-size: 100%;
+    margin-top: 205px;
+    margin-left: 60px;
+    transform: scale(0.2);
+    opacity: 0;
+    transition: 0.5s;
+}
+#illustration:hover + #illustration_txt{
+       transform: scale(1) translate(60px);
+    opacity: 1;
+    transition: 0.5s; 
+}
+
+#illumination{
+    position: absolute;
+    z-index: 5;
+    background: url(../../../resources/illumination.gif);
+    background-size: 100%;
+    width: 110px;
+    height: 110px;
+    margin-top: 240px;
+    margin-left: 6px;
+
+}
+
+#illumination_txt{
+    position: absolute;
+    z-index: 6;
+    width: 130px;
+    height: 20px;
+    background-image: url(../../../resources/illumination_txt.png);
+    background-size: 100%;
+    margin-top: 280px;
+    margin-left: 60px;
+    transform: scale(0.2);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#illumination:hover + #illumination_txt{
+    transform: scale(1) translate(60px);
+    opacity: 1;
+    transition: 0.5s;
+}
+#modeling{
+    position: absolute;
+    z-index: 5;
+    background: url(../../../resources/modeling.gif);
+    background-size: 100%;
+    width: 120px;
+    height: 100px;
+    margin-top: 310px;
+}
+#modeling_txt{
+    position: absolute;
+    z-index: 6;
+    width: 110px;
+    height: 20px;
+    background-image: url(../../../resources/modeling_txt.png);
+    background-size: 100%;
+    margin-top: 354px;
+    margin-left: 60px;
+    transform: scale(0.2);
+    opacity: 0;
+    transition: 0.5s;
+}
+#modeling:hover + #modeling_txt{
+       transform: scale(1) translate(60px);
+    opacity: 1;
+    transition: 0.5s; 
+}
+#programming{
+    position: absolute;
+    z-index: 5;
+    background: url(../../../resources/programming.gif);
+    background-size: 100%;
+    width: 120px;
+    height: 100px;
+    margin-top: 390px;
+
+}
+#programming_txt{
+    position: absolute;
+    z-index: 6;
+    width: 130px;
+    height: 20px;
+    background-image: url(../../../resources/programming_txt.png);
+    background-size: 100%;
+    margin-top: 435px;
+    margin-left: 60px;
+    transform: scale(0.2);
+    opacity: 0;
+    transition: 0.5s;
+}
+#programming:hover + #programming_txt{
+       transform: scale(1) translate(60px);
+    opacity: 1;
+    transition: 0.5s; 
+}
+#sculpting{
+    position: absolute;
+    z-index: 4;
+    background: url(../../../resources/sculpting.gif);
+    background-size: 100%;
+    width: 120px;
+    height: 100px;
+    margin-top: 470px;
+
+}
+#sculpting_txt{
+    position: absolute;
+    z-index: 6;
+    width: 120px;
+    height: 25px;
+    background-image: url(../../../resources/sculpting_txt.png);
+    background-size: 100%;
+    margin-top: 515px;
+    margin-left: 60px;
+    transform: scale(0.2);
+    opacity: 0;
+    transition: 0.5s;
+}
+#sculpting:hover + #sculpting_txt{
+       transform: scale(1) translate(60px);
+    opacity: 1;
+    transition: 0.5s; 
+}
+#procedural_maps{
+    position: absolute;
+    z-index: 4;
+    background: url(../../../resources/procedural.gif);
+    background-size: 100%;
+    width: 120px;
+    height: 100px;
+    margin-top: 560px;
+    opacity: 0.3;
+    filter:grayscale(100%);
+
+}
+#procedural_maps_txt{
+    position: absolute;
+    z-index: 6;
+    width: 130px;
+    height: 50px;
+    background-image: url(../../../resources/procedural_txt.png);
+    background-size: 100%;
+    margin-top: 590px;
+    margin-left: 60px;
+    transform: scale(0.2);
+    opacity: 0;
+    transition: 0.5s;
+}
+#procedural_maps:hover + #procedural_maps_txt{
+       transform: scale(1) translate(60px);
+    opacity: 1;
+    transition: 0.5s; 
+}
+#rigging{
+    position: absolute;
+    z-index: 3;
+    background: url(../../../resources/rigging.gif);
+    background-size: 100%;
+    width: 120px;
+    height: 100px;
+    margin-top: 650px;
+
+}
+#rigging_txt{
+    position: absolute;
+    z-index: 6;
+    width: 100px;
+    height: 25px;
+    background-image: url(../../../resources/rigging_txt.png);
+    background-size: 100%;
+    margin-top: 695px;
+    margin-left: 60px;
+    transform: scale(0.2);
+    opacity: 0;
+    transition: 0.5s;
+}
+#rigging:hover + #rigging_txt{
+       transform: scale(1) translate(60px);
+    opacity: 1;
+    transition: 0.5s; 
+}
+#texturing{
+    position: absolute;
+    z-index: 2;
+    background: url(../../../resources/texturing.gif);
+    background-size: 100%;
+    width: 120px;
+    height: 100px;
+    margin-top: 720px;
+}
+#texturing_txt{
+    position: absolute;
+    z-index: 6;
+    width: 110px;
+    height: 20px;
+    background-image: url(../../../resources/texturing_txt.png);
+    background-size: 100%;
+    margin-top: 765px;
+    margin-left: 60px;
+    transform: scale(0.2);
+    opacity: 0;
+    transition: 0.5s;
+}
+#texturing:hover + #texturing_txt{
+       transform: scale(1) translate(60px);
+    opacity: 1;
+    transition: 0.5s; 
+}
+#page{
+    position: absolute;
+    z-index: 5;
+    width: 150px;
+    height: 150px;
+    background: url("../../../resources/procedural.gif");
+    background-size: 100%;
+    margin-left: 875px;
+    margin-top: 0px;
+    animation: page 4s;
+    opacity: 0.7;
+}
+#back{
+    position: absolute;
+    z-index: 5;
+    width: 150px;
+    height: 55px;
+    background: url("../../../resources/procedural_txt.png");
+    background-size: 100%;
+    margin-left: 7px;
+    margin-top: 40px;
+    opacity: 0;
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+@keyframes page{
+    0%{
+        opacity: 0;
+        transform: scale(0.2)translateY(0px);
+    }
+    12.5%{
+        opacity: 0;
+        transform: scale(3)translateY(130px);
+    }
+    50%{
+        opacity: 1;
+        transform: scale(3)translateY(130px);
+    }
+    70%{
+        
+        opacity: 1;
+        transform: scale(3)translateY(130px);
+    
+    }
+    100%{
+        opacity: 0.7;
+        transform: scale(1);
+    }
+}
+#page_name{
+    position: absolute;
+    z-index: 6;
+    width: 400px;
+    height: 50px;
+    background-image: url(../../../resources/wood_txt.png);
+    background-size: 100%;
+    margin-left: 750px;
+    margin-top: 600px;
+    opacity: 0;
+    transform: scale(0.5);
+    animation: page_name 2s 1s;
+}
+@keyframes page_name{
+    0%{
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    90%{
+        opacity: 1;
+        transform: scale(1);
+    }
+    100%{
+        opacity: 0;
+        transform: scale(0.5);
+    }
+}
+
+@keyframes appear{
+    0%{
+        opacity: 0;
+        transform: scale(0.6);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+@keyframes appear_move{
+    0%{
+        opacity: 1;
+        transform: scale(1);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(0.999);
+    }
+}
+#viewer{
+    position: absolute;
+    z-index: 3;
+    width: 960px;
+    height: 540px;
+    background-image: url("../../../resources/viewer.png");
+    background-size: 100%;
+    background-position: center;
+    margin-left: 470px;
+    margin-top: 200px;
+    opacity: 0;
+    border: solid gray;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+
+}
+#aged_brown{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 200px;
+    background-image: url("Aged_Wood_Planks.png");
+    background-position: center;
+    background-size: 100%;
+    margin-left: 260px;
+    margin-top: 900px;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+#aged_brown_txt{
+    position: absolute;
+    z-index: 3;
+    width: 500px;
+    height: 50px;
+    background-image: url("../../../resources/agedbrown_txt.png");;
+    background-size: 100%;
+    margin-left: 160px;
+    margin-top: 830px;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+
+#aged_dark{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 200px;
+    background-image: url("Dark_Aged_Wood_Planks.png");
+    background-size: 100%;
+    background-position: center;
+    margin-left: 610px;
+    margin-top: 900px;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+#aged_dark_txt{
+    position: absolute;
+    z-index: 3;
+    width: 500px;
+    height: 50px;
+    background-image: url("../../../resources/ageddark_txt.png");;
+    background-size: 100%;
+    margin-left: 510px;
+    margin-top: 830px;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+#aged_gray{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 200px;
+    background-image: url("Gray_Aged_Wood_Planks.png");
+    background-position: center;
+    background-size: 100%;
+    margin-left: 960px;
+    margin-top: 900px;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+#aged_gray_txt{
+    position: absolute;
+    z-index: 3;
+    width: 500px;
+    height: 50px;
+    background-image: url("../../../resources/agedgray_txt.png");;
+    background-size: 100%;
+    margin-left:870px;
+    margin-top: 830px;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+#aged_light{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 200px;
+    background-image: url("Light_Aged_Wood_Planks.png");
+    background-size: 100%;
+    background-position: center;
+    margin-left: 1330px;
+    margin-top: 900px;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+#aged_light_txt{
+    position: absolute;
+    z-index: 3;
+    width: 500px;
+    height: 50px;
+    background-image: url("../../../resources/agedlight_txt.png");;
+    background-size: 100%;
+    margin-left: 1230px;
+    margin-top: 830px;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+#plane_wood{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 200px;
+    background-image: url("woodplane.png");
+    background-size: 100%;
+    margin-left: 260px;
+    margin-top: 1190px;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+#plane_wood_txt{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 30px;
+    background-image: url("../../../resources/woodplane_txt.png");;
+    background-size: 100%;
+    margin-left: 260px;
+    margin-top: 1130px;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+
+#map{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 200px;
+    background-image: url("wood.PNG");
+    background-size: 100%;
+    margin-left: 610px;
+    margin-top: 1190px;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+#map_txt{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 30px;
+    background-image: url("../../../resources/map_txt.png");;
+    background-size: 100%;
+    margin-left: 610px;
+    margin-top: 1130px;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+#pattern{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 200px;
+    background-image: url("wood_pattern.png");
+    background-position: center;
+    background-size: 100%;
+    margin-left: 960px;
+    margin-top: 1190px;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+#pattern_txt{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 30px;
+    background-image: url("../../../resources/woodpattern_txt.png");;
+    background-size: 100%;
+    margin-left:970px;
+    margin-top: 1130px;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+#woodplanks{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 200px;
+    background-image: url("woodplanks.png");
+    background-size: 120%;
+    background-position: center;
+    margin-left: 1330px;
+    margin-top: 1190px;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+#woodplanks_txt{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 30px;
+    background-image: url("../../../resources/woodplanks_txt.png");;
+    background-size: 100%;
+    margin-left: 1330px;
+    margin-top: 1130px;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+
+#video{
+    width: 960px;
+    opacity: 0;
+}
