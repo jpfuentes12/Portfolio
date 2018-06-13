@@ -31,25 +31,25 @@ menu.onclick = function(){
 }
 aged_brown.onclick = function(){
     video.style.opacity = "0";
-    viewer.style.backgroundImage= "url('aged_wood_planks.png')";
+    viewer.style.backgroundImage= "url('Aged_Wood_Planks.png')";
     borders();
     aged_brown.style.border = "solid gray";
 }
 aged_dark.onclick = function(){
     video.style.opacity = "0";
-    viewer.style.backgroundImage= "url('dark_aged_wood_planks.png')";
+    viewer.style.backgroundImage= "url('Dark_Aged_Wood_Planks.png')";
     borders();
     aged_dark.style.border = "solid gray";
 }
 aged_gray.onclick = function(){
     video.style.opacity = "0";
-    viewer.style.backgroundImage= "url('gray_aged_wood_planks.png')";
+    viewer.style.backgroundImage= "url('Gray_Aged_Wood_Planks.png')";
     borders();
     aged_gray.style.border = "solid gray";
 }
 aged_light.onclick = function(){
     video.style.opacity = "0";
-    viewer.style.backgroundImage= "url('light_aged_wood_planks.png')";
+    viewer.style.backgroundImage= "url('Light_Aged_Wood_Planks.png')";
     borders();
     aged_light.style.border = "solid gray";
 }
@@ -61,7 +61,7 @@ plane_wood.onclick = function(){
 }
 map.onclick = function(){
     video.style.opacity = "0";
-    viewer.style.backgroundImage= "url('wood.png')";
+    viewer.style.backgroundImage= "url('wood.PNG')";
     borders();
     map.style.border = "solid gray";
 }
