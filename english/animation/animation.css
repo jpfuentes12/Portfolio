@@ -46,7 +46,7 @@
     margin-top: 15px;
     transition: 1s;
     visibility: hidden;
-    animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
+    animation: appear 2s 3.8s, appear_move 2s 5.8s infinite;
 }
 #help:hover{
     filter: brightness(2);
