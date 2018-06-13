@@ -25,7 +25,7 @@ menu.onclick = function(){
 }
 texture.onclick = function(){
     video.style.opacity = "0";
-    viewer.style.backgroundImage= "url('metal_floor.png')";
+    viewer.style.backgroundImage= "url('Metal_Floor.png')";
     borders();
     texture.style.border = "solid gray";
 }
@@ -38,7 +38,7 @@ map.onclick = function(){
 texture_combined.onclick = function(){
     video.style.opacity = "0";
     borders();
-    viewer.style.backgroundImage= "url('rusty_metal_floor.png')";
+    viewer.style.backgroundImage= "url('rusty_metal_floor.PNG')";
     texture_combined.style.border = "solid gray";
 }
 
