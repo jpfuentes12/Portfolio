@@ -1,0 +1,617 @@
+/*fuente usada: cambria*/
+#scene{
+    position: relative;
+    z-index:1 ;
+    width: 1900px;
+    height: 900px;
+    background-image: url(../resources/scene_bg.png);
+
+}
+#english{
+    position: absolute;
+    z-index: 2;
+    width: 50px;
+    height: 34px;
+    background-image: url(../resources/uk.png);
+    filter: grayscale(50%);
+    background-size: 100%;
+    margin-left: 30px;
+    margin-top: 10px;
+    border-radius: 9px;
+    border: solid gold;
+    visibility: hidden;
+    animation: logo 1s 14s ease-in-out, logo_static 3s 15s infinite alternate-reverse;
+}
+#spanish{
+    position: absolute;
+    z-index: 2;
+    width: 50px;
+    height: 31px;
+    background-image: url(../resources/spain.png);
+    filter: grayscale(50%);
+    background-size: 100%;
+    margin-left: 110px;
+    margin-top: 15px;
+    visibility: hidden;
+    animation: logo 1s 14s ease-in-out, logo_static 3s 15s infinite alternate-reverse;
+}
+#help{
+    position: absolute;
+    z-index: 2;
+    width: 50px;
+    height: 50px;
+    background-image: url(../resources/help.png);
+    background-size: 100%;
+    filter: saturate(6);
+    margin-left: 1820px;
+    margin-top: 15px;
+    transition: 1s;
+    visibility: hidden;
+    animation: logo 1s 14s ease-in-out, logo_static 3s 15s infinite alternate-reverse;
+}
+#help:hover{
+    filter: brightness(2);
+    transition: 1s;
+}
+#animation{
+    position: absolute;
+    z-index: 2;
+    background: url(../resources/animation.gif);
+    background-size: 100%;
+    color: white;
+    font-size: 30px;
+    width: 120px;
+    height: 120px;
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 845px;
+    visibility: hidden;
+    animation: diamond_op 16s 3s linear, diamond 16s 3s infinite linear;
+}
+
+#animationtxt{
+    position: absolute;
+    z-index: 3;
+    background-image: url(../resources/animation_txt.png);
+    background-size: 100%;
+    color: white;
+    font-size: 30px;
+    width: 120px;
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 845px;
+    visibility: hidden;
+    animation: diamond_op 16s 3s linear, diamond 16s 3s infinite linear;
+}
+#illustration{
+    position: absolute;
+    z-index: 5;
+    background: url(../resources/illustration.gif);
+    background-size: 100%;
+    color: white;
+    font-size: 30px;
+    width: 120px;
+    height: 100px;
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 845px;
+    visibility: hidden;
+    animation: diamond_op 16s 4.75s linear, diamond 16s 4.75s infinite linear;
+}
+#illustrationtxt{
+        position: absolute;
+    z-index:6;
+    background-image: url(../resources/illustration_txt.png);
+    background-size: 100%;
+    color: white;
+    font-size: 30px;
+    width: 140px;
+    height: 25px;
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 845px;
+    visibility: hidden;
+    animation: diamond_op 16s 4.75s linear, diamond 16s 4.75s infinite linear;
+}
+#illumination{
+    position: absolute;
+    z-index: 5;
+    background: url(../resources/illumination.gif);
+    background-size: 100%;
+    color: white;
+    font-size: 30px;
+    width: 120px;
+    height: 120px;
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 845px;
+    visibility: hidden;
+    animation: diamond_op 16s 6.5s linear, diamond 16s 6.5s infinite linear;
+}
+#illuminationtxt{
+       position: absolute;
+    z-index: 6;
+    background-image: url(../resources/illumination_txt.png);
+    background-size: 100%;
+    color: white;
+    font-size: 30px;
+    width: 150px;
+    height: 25px;
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 845px;
+    visibility: hidden;
+    animation: diamond_op 16s 6.5s linear, diamond 16s 6.5s infinite linear; 
+}
+#modeling{
+    position: absolute;
+    z-index: 5;
+    background: url(../resources/modeling.gif);
+    background-size: 100%;
+    color: white;
+    font-size: 30px;
+    width: 120px;
+    height: 100px;
+    margin: 50px;
+    text-align: center;
+    margin-left: 845px;
+    visibility: hidden;
+    animation: diamond_op 16s 8.25s linear, diamond 16s 8.25s infinite linear;
+}
+#modelingtxt{
+       position: absolute;
+    z-index: 6;
+    background-image: url(../resources/modeling_txt.png);
+    background-size: 100%;
+    color: white;
+    font-size: 30px;
+    width: 140px;
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 845px;
+    visibility: hidden;
+    animation: diamond_op 16s 8.25s linear, diamond 16s 8.25s infinite linear; 
+}
+#programming{
+    position: absolute;
+    z-index: 5;
+    background: url(../resources/programming.gif);
+    background-size: 100%;
+    color: white;
+    font-size: 30px;
+    width: 120px;
+    height: 100px;
+    margin: 50px;
+    text-align: center;
+    margin-left: 845px;
+    visibility: hidden;
+    animation: diamond_op 16s 10s linear, diamond 16s 10s infinite linear;
+}
+#programmingtxt{
+       position: absolute;
+    z-index: 6;
+    background-image: url(../resources/programming_txt.png);
+    background-size: 100%;
+    color: white;
+    font-size: 30px;
+    width: 140px;
+    height: 25px;
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 845px;
+    visibility: hidden;
+    animation: diamond_op 16s 10s linear, diamond 16s 10s infinite linear; 
+}
+#sculpting{
+    position: absolute;
+    z-index: 5;
+    background: url(../resources/sculpting.gif);
+    background-size: 100%;
+    color: white;
+    font-size: 30px;
+    width: 120px;
+    height: 100px;
+    margin: 50px;
+    text-align: center;
+    margin-left: 845px;
+    visibility: hidden;
+    animation: diamond_op 16s 11.75s linear, diamond 16s 11.75s infinite linear;
+}
+#sculptingtxt{
+       position: absolute;
+    z-index: 6;
+    background-image: url(../resources/sculpting_txt.png);
+    background-size: 100%;
+    color: white;
+    font-size: 30px;
+    width: 150px;
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 845px;
+    visibility: hidden;
+    animation: diamond_op 16s 11.75s linear, diamond 16s 11.75s infinite linear; 
+}
+#procedural_maps{
+    position: absolute;
+    z-index: 5;
+    background: url(../resources/procedural.gif);
+    background-size: 100%;
+    color: white;
+    font-size: 30px;
+    width: 120px;
+    height: 100px;
+    margin: 50px;
+    text-align: center;
+    margin-left: 845px;
+    visibility: hidden;
+    animation: diamond_op 16s 13.5s linear, diamond 16s 13.5s infinite linear;
+}
+#proceduralmapstxt{
+    position: absolute;
+    z-index: 6;
+    background-image: url(../resources/procedural_txt.png);
+    background-size: 100%;
+    color: white;
+    font-size: 30px;
+    width: 130px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 845px;
+    visibility: hidden;
+    animation: diamond_op 16s 13.5s linear, diamond 16s 13.5s infinite linear; 
+}
+#rigging{
+    position: absolute;
+    z-index: 5;
+    background: url(../resources/rigging.gif);
+    background-size: 100%;
+    color: white;
+    font-size: 30px;
+    width: 120px;
+    height: 100px;
+    margin: 50px;
+    text-align: center;
+    margin-left: 845px;
+    visibility: hidden;
+    animation: diamond_op 16s 15.25s linear, diamond 16s 15.25s infinite linear;
+}
+#riggingtxt{
+    position: absolute;
+    z-index: 6;
+    background-image: url(../resources/rigging_txt.png);
+    background-size: 100%;
+    color: white;
+    font-size: 30px;
+    width: 130px;
+    height: 35px;
+    margin-left: 50px;
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 845px;
+    visibility: hidden;
+    animation: diamond_op 16s 15.25s linear, diamond 16s 15.25s infinite linear; 
+}
+#texturing{
+    position: absolute;
+    z-index: 5;
+    background: url(../resources/texturing.gif);
+    background-size: 100%;
+    color: white;
+    font-size: 30px;
+    width: 120px;
+    height: 100px;
+    margin: 50px;
+    text-align: center;
+    margin-left: 845px;
+    visibility: hidden;
+    animation: diamond_op 16s 17s linear, diamond 16s 17s infinite linear;
+}
+#texturingtxt{
+    position: absolute;
+    z-index: 6;
+    background-image: url(../resources/texturing_txt.png);
+    background-size: 100%;
+    color: white;
+    font-size: 30px;
+    width: 140px;
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 845px;
+    visibility: hidden;
+    animation: diamond_op 16s 17s linear, diamond 16s 17s infinite linear; 
+}
+#statistics{
+    position: absolute;
+    background-image: url(../resources/statistics.png);
+    background-size: 100%;
+    background-position: center;
+    width: 400px;
+    height: 220px;
+    margin-left: 100px;
+    margin-top: 300px;
+    visibility: hidden;
+    filter: grayscale(50%);
+    animation: logo 1s 14s ease-in-out, logo_static 3s 15s infinite alternate-reverse;
+}
+#statistics_txt{
+    position: absolute;
+    background-image: url(../resources/statistics_txt.png);
+    background-size: 100%;
+    width: 300px;
+    height: 40px;
+    margin-left: 150px;
+    margin-top: 250px;
+    border-radius: 10px;
+    filter:grayscale(70%);
+    visibility: hidden;
+    animation: logo 1s 14s ease-in-out, logo_static 3s 15s infinite alternate-reverse;
+}
+#general{
+    position: absolute;
+    background-image: url(../resources/overall_video.png);
+    background-size: 150%;
+    background-position: center;
+    width: 400px;
+    height: 220px;
+    margin-left: 1440px;
+    margin-top: 300px;
+    border-radius: 10px;
+    filter:grayscale(70%);
+    visibility: hidden;
+    transition: 0.2s;
+    animation: logo 1s 14s ease-in-out, logo_static 3s 15s infinite alternate-reverse;
+}
+#general_txt{
+    position: absolute;
+    background-image: url(../resources/overall_video_txt.png);
+    background-size: 100%;
+    width: 300px;
+    height: 40px;
+    margin-left: 1500px;
+    margin-top: 250px;
+    border-radius: 10px;
+    filter:grayscale(70%);
+    visibility: hidden;
+    animation: logo 1s 14s ease-in-out, logo_static 3s 15s infinite alternate-reverse;
+}
+#general:hover{
+    background-image: url("../resources/overall.gif");
+}
+#video{
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 800px;
+    margin-top: 170px;
+    animation: video 10s;
+}
+#contact{
+    position: absolute;
+    z-index: 2;
+    width: 400px;
+    height: 400px;
+    background-image: url(../resources/contact.png);
+    background-size: 100%;
+    margin-left: 800px;
+    margin-top: 220px;
+    opacity: 0;
+    filter: brightness(0.7)grayscale(40%);
+    animation: contact 2s 17s infinite alternate-reverse linear;
+    transition: 2s;
+}
+#contact_txt{
+    position: absolute;
+    z-index: 2;
+    width: 300px;
+    height: 30px;
+    background-image: url(../resources/contact_txt.png);
+    background-size: 100%;
+    margin-left: 850px;
+    margin-top: 250px;
+    opacity: 0;
+    transition: 2s;
+    animation: logo 1s 14s ease-in-out, logo_static 3s 15s infinite alternate-reverse;
+}
+@keyframes contact{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+#logo{
+    position: absolute;
+    z-index: 6;
+    width: 900px;
+    height: 24px;
+    background-image: url(../resources/GDS.png);
+    background-size: 100%;
+    margin-left: 560px;
+    margin-top: 760px;
+    visibility: hidden;
+    animation: logo 7s 6s ease-in-out, logo_static 3s 13s infinite alternate-reverse;
+}
+#name{
+    position: absolute;
+    z-index: 6;
+    width: 330px;
+    height: 34px;
+    background-image: url(../resources/name.png);
+    background-size: 100%;
+    margin-left: 846px;
+    margin-top: 800px;
+    visibility: hidden;
+    animation: logo 1s 13s ease-in-out, logo_static 3s 14s infinite alternate-reverse;
+}
+#portfolio{
+    position: absolute;
+    z-index: 6;
+    width: 120px;
+    height: 20px;
+    background-image: url(../resources/portfolio.png);
+    background-size: 100%;
+    margin-left: 946px;
+    margin-top: 840px;
+    visibility: hidden;
+    animation: logo 1s 14s ease-in-out, logo_static 3s 15s infinite alternate-reverse;
+}
+@keyframes logo{
+    0%{ opacity: 0;
+        visibility: hidden;
+        transform: scale(0.6);
+    }
+    100%{opacity: 1;
+        visibility: visible;
+        transform: scale(1);
+    }
+}
+@keyframes logo_static{
+    0%{ opacity: 1;
+        visibility: visible;
+        transform: scale(0.999);
+    }
+    100%{
+        opacity: 1;
+        visibility: visible;
+        transform: scale(1);
+    }
+}
+@keyframes video {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes diamond_op{
+    0%{opacity: 0;
+        visibility: hidden;;
+       transform: translate(80px, 20px);
+    }
+    6.25%{
+        transform: translate(-40px, 60px);
+    }
+    12.5%{ opacity: 0;
+        visibility: hidden;
+        transform: translate(-140px, 120px);
+    }
+    18.75%{
+        transform: translate(-190px, 200px);
+    }
+    25%{ opacity: 1;
+        visibility: visible;
+        transform: translate(-215px, 305px);
+    }
+    31.25%{
+        transform: translate(-190px, 420px)
+    }
+    37.5%{
+        transform: translate(-120px, 510px);
+    }
+    43.75%{
+        transform: translate(-40px, 570px);
+    }
+    50%{
+        transform: translate(80px, 610px);
+    }
+    56.25%{
+        transform: translate(200px, 570px);
+    }
+    62.5%{
+        transform: translate(280px, 510px);
+    }
+    68.75%{
+        transform: translate(350px, 420px)
+    }
+    75%{
+        transform: translate(375px, 305px);
+    }
+    81.25%{
+        transform: translate(360px, 200px);
+    }
+    87.5%{
+        transform: translate(290px, 120px);
+    }
+    93.75%{
+        transform: translate(210px, 60px);
+    }
+    100%{
+        transform: translate(80px, 2px);
+    }
+}
+@keyframes diamond{
+    0%{ visibility: visible;
+       transform: translate(80px, 20px);
+    }
+    6.25%{
+        transform: translate(-50px, 60px);
+    }
+    12.5%{
+        transform: translate(-140px, 120px);
+    }
+    18.75%{
+        transform: translate(-190px, 200px);
+    }
+    25%{
+        transform: translate(-215px, 305px);
+    }
+    31.25%{
+        transform: translate(-190px, 420px)
+    }
+    37.5%{
+        transform: translate(-120px, 510px);
+    }
+    43.75%{
+        transform: translate(-40px, 570px);
+    }
+    50%{
+        transform: translate(80px, 610px);
+    }
+    56.25%{
+        transform: translate(200px, 570px);
+    }
+    62.5%{
+        transform: translate(280px, 510px);
+    }
+    68.75%{
+        transform: translate(350px, 420px)
+    }
+    75%{
+        transform: translate(375px, 305px);
+    }
+    81.25%{
+        transform: translate(360px, 200px);
+    }
+    87.5%{
+        transform: translate(290px, 120px);
+    }
+    93.75%{
+        transform: translate(210px, 60px);
+    }
+    100%{
+        transform: translate(80px, 20px);
+    }
+}
