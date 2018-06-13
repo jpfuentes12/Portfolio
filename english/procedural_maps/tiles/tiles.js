@@ -44,7 +44,7 @@ yellow.onclick = function(){
 }
 map.onclick = function(){
     video.style.opacity = "0";
-    viewer.style.backgroundImage= "url('captura.png')";
+    viewer.style.backgroundImage= "url('Captura.PNG')";
     borders();
     map.style.border = "solid gray";
 }
