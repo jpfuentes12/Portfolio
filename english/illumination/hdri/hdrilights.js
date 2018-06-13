@@ -35,31 +35,31 @@ all.onclick = function(){
 all3.onclick = function(){
     video.style.opacity = "0";
     borders();
-    viewer.style.backgroundImage= "url('all3.png')";
+    viewer.style.backgroundImage= "url('ALL3.png')";
     all3.style.border = "solid gray";
 }
 all2.onclick = function(){
     video.style.opacity = "0";
     borders();
-    viewer.style.backgroundImage= "url('all2.png')";
+    viewer.style.backgroundImage= "url('ALL2.png')";
     all2.style.border = "solid gray";
 }
 map1.onclick = function(){
     video.style.opacity = "0";
-    viewer.style.backgroundImage= "url('esquema1.png')";
+    viewer.style.backgroundImage= "url('ESQUEMA1.png')";
     borders();
     map1.style.border = "solid gray";
 }
 map3.onclick = function(){
     video.style.opacity = "0";
     borders();
-    viewer.style.backgroundImage= "url('esquema3.png')";
+    viewer.style.backgroundImage= "url('ESQUEMA3.png')";
     map3.style.border = "solid gray";
 }
 map2.onclick = function(){
     video.style.opacity = "0";
     borders();
-    viewer.style.backgroundImage= "url('esquema2.png')";
+    viewer.style.backgroundImage= "url('ESQUEMA2.png')";
     map2.style.border = "solid gray";
 }
 
