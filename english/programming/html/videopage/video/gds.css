@@ -1,0 +1,141 @@
+.scene{
+width: 1920px; 
+    height: 2160px;
+    background-image: url(FONDO.png);
+}
+
+video{
+margin-left: 600px;
+    margin-top: 20px;
+
+}
+#controls{
+
+    width: 400px;
+    height: 100px;
+    margin-top: 0px;
+}
+
+#yellow{
+    display:inline-block;
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 500px;
+    height: 380px;
+       background-image: url(yellow_off.png);
+
+    background-size: 500px;
+    
+}
+#blue{
+    display: inline-block;
+    margin-left: 105px;
+    width: 500px;
+    height: 380px;
+    background-image: url(blue_off.png);
+    background-size: 500px;
+    
+}
+#purple{
+    display: inline-block;
+    margin-left: 105px;
+    width: 500px;
+    height: 380px;
+    background-image: url(purple_off.png);
+    background-size: 500px;
+    
+}
+#green{
+    display: inline-block;
+    margin-left: 405px;
+    width: 500px;
+    height: 380px;
+    background-image: url(green_off.png);
+    background-size: 500px;
+    
+}
+#red{
+    display: inline-block;
+    margin-left: 105px;
+    width: 500px;
+    height: 380px;
+    background-image: url(red_off.png);
+    background-size: 500px;
+    
+}
+#info{
+    color: darkgray;
+    font-size: 50px;
+    width: 1350px;
+    height: 660px;
+    margin-left: 290px;
+}
+
+#play{
+    display: inline-block;
+   background-image: url(play_button.png);
+    background-size: 100%;
+    margin-left: 400px;
+    margin-top: 50px;
+    width: 250px;
+    height: 250px;
+}
+#pause{
+    display: inline-block;
+       background-image: url(pause_button.png);
+    background-size: 100%;
+    margin-left: 200px;
+    margin-top: 50px;
+    width: 250px;
+    height: 250px;
+}
+#loop{
+    display: inline-block;
+       background-image: url(load_button.png);
+    background-size: 100%;
+    margin-left: 200px;
+    margin-top: 50px;
+    width: 250px;
+    height: 250px;
+}
+
+#volume_low{
+        display: inline-block;
+   background-image: url(volume_low_button.png);
+    background-size: 100%;
+    margin-left: 400px;
+    margin-top: 50px;
+    width: 250px;
+    height: 250px;
+}
+#volume_high{
+    display: inline-block;
+       background-image: url(volume_high_button.png);
+    background-size: 100%;
+    margin-left: 200px;
+    margin-top: 50px;
+    width: 250px;
+    height: 250px;
+}
+#volume_mute{
+    display: inline-block;
+       background-image: url(volume_mute_button.png);
+    background-size: 100%;
+    margin-left: 200px;
+    margin-top: 50px;
+    width: 250px;
+    height: 250px;
+}
+#return{
+    display: block;
+    font-weight: 1000;
+    color: dimgray;
+    border: solid black;
+    border-radius: 100px;
+    margin-left: 50px;
+    margin-top: 110px;
+    font-size: 40px;
+    width: 250px;
+    height: 60px;
+    background-color: gray;
+}
