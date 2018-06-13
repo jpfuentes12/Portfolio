@@ -30,7 +30,7 @@ texture.onclick = function(){
 }
 map.onclick = function(){
     video.style.opacity = "0";
-    viewer.style.backgroundImage= "url('light_bricks.png')";
+    viewer.style.backgroundImage= "url('light_bricks.PNG')";
     borders();
     map.style.border = "solid gray";
 }
