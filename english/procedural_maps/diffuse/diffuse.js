@@ -24,14 +24,14 @@ menu.onclick = function(){
 }
 texture.onclick = function(){
     video.style.opacity = "0";
-    viewer.style.backgroundImage= "url('rust.png')";
+    viewer.style.backgroundImage= "url('Rust.png')";
     borders();
     texture.style.border = "solid gray";
 }
 map.onclick = function(){
     video.style.opacity = "0";
     borders();
-    viewer.style.backgroundImage= "url('rust_map.png')";
+    viewer.style.backgroundImage= "url('rust_map.PNG')";
     map.style.border = "solid gray";
 }
 
