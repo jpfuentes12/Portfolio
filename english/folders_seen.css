@@ -54,6 +54,25 @@
     filter: brightness(2);
     transition: 1s;
 }
+
+
+#contact_txt{
+    position: absolute;
+    z-index: 2;
+    width: 300px;
+    height: 30px;
+    background-image: url(../resources/contact_txt.png);
+    background-size: 100%;
+    margin-left: 1560px;
+    margin-top:22px;
+    opacity: 0;
+    transition: 0.3s;
+    transform: scale(0.2);
+}
+#help:hover + #contact_txt{
+    opacity: 1;
+    transform: scale(1);
+}
 #animation{
     position: absolute;
     z-index: 2;
@@ -63,8 +82,8 @@
     font-size: 30px;
     width: 120px;
     height: 120px;
-    margin-top: 50px;
-    margin-left: 330px;
+    margin-top: 350px;
+    margin-left: 180px;
     visibility: hidden;
     animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
 
@@ -79,8 +98,8 @@
     font-size: 30px;
     width: 120px;
     height: 26px;
-    margin-top: 20px;
-    margin-left: 330px;
+    margin-top: 330px;
+    margin-left: 180px;
     visibility: hidden;
     animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
 
@@ -94,8 +113,8 @@
     font-size: 30px;
     width: 120px;
     height: 100px;
-    margin-top: 50px;
-    margin-left: 480px;
+    margin-top: 350px;
+    margin-left: 330px;
     visibility: hidden;
     animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
 
@@ -110,9 +129,9 @@
     width: 140px;
     height: 25px;
     margin-left: 50px;
-    margin-top: 20px;
+    margin-top: 330px;
     text-align: center;
-    margin-left: 480px;
+    margin-left: 330px;
     visibility: hidden;
     animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
 
@@ -127,9 +146,9 @@
     width: 120px;
     height: 120px;
     margin-left: 50px;
-    margin-top: 50px;
+    margin-top: 350px;
     text-align: center;
-    margin-left: 630px;
+    margin-left: 480px;
     visibility: hidden;
     animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
 
@@ -143,9 +162,9 @@
     font-size: 30px;
     width: 140px;
     height: 25px;
-    margin-top: 20px;
+    margin-top: 330px;
     text-align: center;
-    margin-left: 630px;
+    margin-left: 480px;
     visibility: hidden;
     animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
  
@@ -159,9 +178,9 @@
     font-size: 30px;
     width: 120px;
     height: 100px;
-    margin: 50px;
+    margin: 350px;
     text-align: center;
-    margin-left: 780px;
+    margin-left: 630px;
     visibility: hidden;
     animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
 
@@ -176,9 +195,41 @@
     width: 110px;
     height: 20px;
     margin-left: 50px;
-    margin-top: 20px;
+    margin-top: 330px;
     text-align: center;
-    margin-left: 790px;
+    margin-left: 640px;
+    visibility: hidden; 
+    animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
+}
+#comingsoon{
+    position: absolute;
+    z-index: 5;
+    background: url(../resources/comingsoon.gif);
+    background-size: 100%;
+    color: white;
+    font-size: 30px;
+    width: 120px;
+    height: 100px;
+    margin: 490px;
+    text-align: center;
+    margin-left: 630px;
+    visibility: hidden;
+    animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
+
+}
+#comingsoon_txt{
+       position: absolute;
+    z-index: 6;
+    background-image: url(../resources/comingsoon_txt.gif.png);
+    background-size: 100%;
+    color: white;
+    font-size: 30px;
+    width: 210px;
+    height: 20px;
+    margin-left: 50px;
+    margin-top: 490px;
+    text-align: center;
+    margin-left: 590px;
     visibility: hidden; 
     animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
 }
@@ -191,9 +242,9 @@
     font-size: 30px;
     width: 120px;
     height: 100px;
-    margin: 50px;
+    margin: 490px;
     text-align: center;
-    margin-left: 930px;
+    margin-left: 1230px;
     visibility: hidden;
     animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
 }
@@ -205,9 +256,9 @@
     color: white;
     font-size: 30px;
     width: 140px;
-    height: 25px;
-    margin-top: 20px;
-    margin-left: 930px;
+    height: 20px;
+    margin-top: 490px;
+    margin-left: 1225px;
     visibility: hidden;
     animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
 }
@@ -219,8 +270,8 @@
     font-size: 30px;
     width: 120px;
     height: 100px;
-    margin: 50px;
-    margin-left: 1080px;
+    margin: 350px;
+    margin-left: 1230px;
     visibility: hidden;
     animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
 }
@@ -233,10 +284,9 @@
     font-size: 30px;
     width: 120px;
     height: 25px;
-    margin-left: 50px;
-    margin-top: 20px;
+    margin-top: 320px;
     text-align: center;
-    margin-left: 1085px;
+    margin-left: 1235px;
     visibility: hidden;
     animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
 }
@@ -247,8 +297,8 @@
     background-size: 100%;
     width: 120px;
     height: 100px;
-    margin-top: 50px;
-    margin-left: 1230px;
+    margin-top: 350px;
+    margin-left: 1380px;
     visibility: hidden;
     animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
 }
@@ -261,8 +311,8 @@
     font-size: 30px;
     width: 130px;
     height: 50px;
-    margin-top: 20px;
-    margin-left: 1230px;
+    margin-top: 320px;
+    margin-left: 1380px;
     visibility: hidden;
     animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
 }
@@ -275,9 +325,9 @@
     font-size: 30px;
     width: 120px;
     height: 100px;
-    margin: 50px;
+    margin: 350px;
     text-align: center;
-    margin-left: 1380px;
+    margin-left: 1530px;
     visibility: hidden;
     animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
 }
@@ -291,9 +341,9 @@
     width: 100px;
     height: 25px;
     margin-left: 50px;
-    margin-top: 20px;
+    margin-top: 320px;
     text-align: center;
-    margin-left: 1395px;
+    margin-left: 1545px;
     visibility: hidden;
     animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
 }
@@ -306,9 +356,9 @@
     font-size: 30px;
     width: 120px;
     height: 100px;
-    margin: 50px;
+    margin: 350px;
     text-align: center;
-    margin-left: 1530px;
+    margin-left: 1680px;
     visibility: hidden;
     animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
 }
@@ -322,69 +372,29 @@
     width: 130px;
     height: 30px;
     margin-left: 50px;
-    margin-top: 20px;
+    margin-top: 320px;
     text-align: center;
-    margin-left: 1530px;
+    margin-left: 1680px;
     visibility: hidden;
     animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
 }
-#statistics{
-    position: absolute;
-    background-image: url(../resources/statistics.png);
-    background-size: 100%;
-    background-position: center;
-    width: 400px;
-    height: 220px;
-    margin-left: 100px;
-    margin-top: 300px;
-    visibility: hidden;
-    filter: grayscale(50%);
-    animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
-}
-#statistics_txt{
-    position: absolute;
-    background-image: url(../resources/statistics_txt.png);
-    background-size: 100%;
-    width: 300px;
-    height: 40px;
-    margin-left: 150px;
-    margin-top: 250px;
-    border-radius: 10px;
-    filter:grayscale(70%);
-    visibility: hidden;
-    animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
-}
-#general{
-    position: absolute;
-    background-image: url(../resources/overall_video.png);
-    background-size: 150%;
-    background-position: center;
-    width: 400px;
-    height: 220px;
-    margin-left: 1440px;
-    margin-top: 300px;
-    border-radius: 10px;
-    filter:grayscale(70%);
-    visibility: hidden;
-    transition: 0.2s;
-    animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
-}
+
 #general_txt{
     position: absolute;
+    z-index: 6;
     background-image: url(../resources/overall_video_txt.png);
     background-size: 100%;
     width: 300px;
     height: 40px;
-    margin-left: 1500px;
-    margin-top: 250px;
+    margin-left: 850px;
+    margin-top: 394px;
     border-radius: 10px;
     filter:grayscale(70%);
+    filter: brightness(1.8);
     visibility: hidden;
     animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
 }
-#general:hover{
-    background-image: url("../resources/overall.gif");
-}
+
 #video{
     width: 400px;
     height: 500px;
@@ -407,19 +417,7 @@
     transition: 2s;
     animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
 }
-#contact_txt{
-    position: absolute;
-    z-index: 2;
-    width: 300px;
-    height: 30px;
-    background-image: url(../resources/contact_txt.png);
-    background-size: 100%;
-    margin-left: 850px;
-    margin-top: 250px;
-    opacity: 0;
-    transition: 2s;
-    animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
-}
+
 
 #logo{
     position: absolute;
