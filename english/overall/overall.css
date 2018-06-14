@@ -418,3 +418,17 @@
     opacity: 1;
     transition: 0.5s; 
 }
+#hq{
+    position: absolute;
+    z-index: 6;
+    width: 600px;
+    height: 50px;
+    background-image: url(../../resources/hq_txt.png);
+    background-size: 100%;
+    margin-top: 800px;
+    margin-left:660px;
+    transform: scale(1);
+    opacity: 0;
+    transition: 0.5s;
+    animation: appear 2s 3s, appear_move 2s 5s infinite;
+}
