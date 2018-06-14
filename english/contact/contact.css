@@ -500,6 +500,19 @@
     transform: scale(1);
     animation: appear 2s 3.4s, appear_move 2s 5.4s infinite;
 }
+#links{
+    position: absolute;
+    z-index: 5;
+    width: 400px;
+    height: 40px;
+    background-image: url(../../resources/links_txt.png);
+    background-size: 100%;
+    margin-left:110px;
+    margin-top:530px;
+    opacity: 0;
+    transform: scale(1);
+    animation: appear 2s 3.2s, appear_move 2s 5.2s infinite;
+}
 #sketchfab{
     position: absolute;
     z-index: 5;
