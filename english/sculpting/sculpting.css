@@ -547,8 +547,8 @@
     position: absolute;
     z-index: 3;
     width: 400px;
-    height: 230px;
-    background-image: url(body/arm_front2.png);
+    height: 170px;
+    background-image: url(terrain/terrain.png);
     background-size: 100%;
     margin-left: 1350px;
     margin-top: 300px;
@@ -569,6 +569,6 @@
     animation: appear 2s 3.8s, appear_move 2s 5.8s infinite;
 }
 #terrain:hover{
-    background-image: url(body/bodysculpt.gif);
+    background-image: url(terrain/terrain.gif);
     transition: 0.2s;
 }
