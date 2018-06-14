@@ -515,7 +515,7 @@
     animation: appear 2s 3.2s, appear_move 2s 5.2s infinite;
 }
 #bike:hover{
-    background-image: url("bike/props_textures.png");
+    background-image: url("props/props_textures.png");
     background-position: center;
 }
 #cars_txt{
