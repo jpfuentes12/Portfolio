@@ -202,8 +202,6 @@
     width: 120px;
     height: 100px;
     margin-top: 310px;
-    opacity: 0.3;
-    filter:grayscale(100%);
 }
 #modeling_txt{
     position: absolute;
