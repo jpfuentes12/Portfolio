@@ -46,7 +46,6 @@
     filter: saturate(6);
     margin-left: 1820px;
     margin-top: 15px;
-    transition: 1s;
     visibility: hidden;
     animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
 }
@@ -414,7 +413,6 @@
     margin-left: 800px;
     margin-top: 220px;
     opacity: 1;
-    transition: 2s;
     animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
 }
 
