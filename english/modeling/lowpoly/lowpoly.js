@@ -27,6 +27,7 @@ logo_wire.onclick = function(){
     video.style.opacity = "1";
     video.src="logo_wire.mp4";
     video.style.height="540px";
+    viewer.style.backgroundImage= "url('logo_wire.png')";
     borders();
     logo_wire.style.border = "solid gray";
 }
