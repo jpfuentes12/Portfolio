@@ -229,7 +229,7 @@ back.onclick = function(){
 
 function variables(){
     if(weapon_number == 1 && clues ==10){
-        document.getElementById("crime_scene").style.backgroundImage = "url('crime_scene_correct_true.png')";
+        document.getElementById("crime_scene").style.backgroundImage = "url('CRIME_SCENE_CORRECT_TRUE.png')";
         
     }
 }
