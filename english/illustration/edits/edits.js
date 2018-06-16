@@ -44,7 +44,7 @@ mujer2.onclick = function(){
 }
 radio.onclick = function(){
     video.style.opacity = "0";
-    viewer.style.backgroundImage= "url('vulture%20sombras.png')";
+    viewer.style.backgroundImage= "url('radio.png')";
     borders();
     radio.style.border = "solid gray";
 }
