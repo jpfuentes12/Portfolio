@@ -32,13 +32,13 @@ texture.onclick = function(){
 map.onclick = function(){
     video.style.opacity = "0";
     borders();
-    viewer.style.backgroundImage= "url('rusty_metal_map.png')";
+    viewer.style.backgroundImage= "url('rusty_metal_map.PNG')";
     map.style.border = "solid gray";
 }
 texture_combined.onclick = function(){
     video.style.opacity = "0";
     borders();
-    viewer.style.backgroundImage= "url('rusty_metal_floor.PNG')";
+    viewer.style.backgroundImage= "url('rusty_metal_floor.png')";
     texture_combined.style.border = "solid gray";
 }
 
