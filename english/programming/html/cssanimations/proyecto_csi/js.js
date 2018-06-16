@@ -276,7 +276,7 @@ function butset(){
     document.getElementById("popup_select").style.transitionDelay = "0.4s";
     
     document.getElementById("back").style.transform="scale(2)";
-    document.getElementById("back").style.backgroundImage="url('back.png')";
+    document.getElementById("back").style.backgroundImage="url('BACK.png')";
     document.getElementById("back").style.width = "200px";
     document.getElementById("back").style.height = "95px";
     document.getElementById("back").style.opacity = "1";
