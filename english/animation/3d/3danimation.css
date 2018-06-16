@@ -496,7 +496,7 @@
     z-index: 3;
     width: 400px;
     height: 220px;
-    background-image: url("pantomime.png");
+    background-image: url("pantomime.PNG");
     background-size: 100%;
     margin-left: 200px;
     margin-top: 900px;
@@ -552,7 +552,7 @@
     z-index: 3;
     width: 400px;
     height: 220px;
-    background-image: url("reel.png");
+    background-image: url("reel.PNG");
     background-size: 120%;
     background-position: center;
     margin-left: 1300px;
