@@ -45,9 +45,8 @@
     margin-left: 1820px;
     margin-top: 15px;
     transition: 1s;
-   opacity: 0;
-    animation: appear 2s 3.4s, appear_move 2s 5.4s infinite;
-    
+    opacity: 0;
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
 }
 #help:hover{
     filter: brightness(2);
