@@ -406,10 +406,10 @@
     position: absolute;
     z-index: 5;
     width: 400px;
-    height: 70px;
-    background-image: url(../../../resources/programming_txt.png);
+    height: 50px;
+    background-image: url(../../../resources/html_txt.png);
     background-size: 100%;
-    margin-left: 780px;
+    margin-left: 760px;
     margin-top: 600px;
     opacity: 0;
     transform: scale(0.5);
