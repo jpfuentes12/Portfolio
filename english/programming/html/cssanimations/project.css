@@ -1,0 +1,635 @@
+#screen{
+    position: relative;
+    z-index: 0;
+    width: 3940px;
+    height: 3000px;
+    background-image: url(screen_bg.png)
+}
+
+#scene{
+    position: absolute;
+    z-index: 0;
+    width: 3840px;
+    height: 2160px;
+    background-image: url(room.png);
+    margin-top: 140px;
+    border: solid 50px;
+    border-color: rgb(15,15,15,1)
+    
+}
+#gameover{
+    position: absolute;
+    z-index: 50;
+    width: 20px;
+    height: 20px;
+    background-image: url(GAMEOVER.png);
+    margin-left: 2000px;
+    background-size: 100%;
+    margin-top: 1000px;
+    opacity: 0;
+}
+#try_again{
+    position: absolute;
+    z-index: 51;
+    width: 50px;
+    height: 16px;
+    background-image: url(TRY_AGAIN.png);
+    background-size: 100%;
+    margin-left: 2000px;
+    margin-top: 1000px;
+    opacity: 0;
+}
+@keyframes tryagain{
+    0%{
+        opacity: 0;
+        transform: scale(1);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(2);
+    }
+}
+#table{
+    position: absolute;
+    z-index: 2;
+    width: 1379px;
+    height: 663px;
+    background-image: url(TABLE.png);
+    margin-left: 1300px;
+    margin-top: 1000px;
+    
+}
+@keyframes move{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
+#cadaver{
+    position: absolute;
+    z-index: 2;
+   width: 1118px;
+    height: 1036px;
+    background-image: url(CADAVER.png);
+    background-size: 100%;
+    margin-top: 800px;
+    margin-left: 1280px;
+
+    
+}
+#cadaver:hover{
+
+
+    animation-name: move;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    transition: 2s;
+}
+
+
+
+#gun{
+    position: absolute;
+    z-index: 5;
+    width: 250px;
+    height: 250px;
+    background-image: url(ARMA.png);
+    background-size: 100%;
+    margin-left: 1600px;
+    margin-top: 1700px;
+
+}
+#gun:hover{
+
+ 
+    animation-name: move;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    transition: 2s;
+}
+#clock{
+    position: absolute;
+    z-index: 6;
+    width: 290px;
+    height: 290px;
+    background-image: url(RELOJ.png);
+    background-size: 100%;
+    margin-left: 2470px;
+    margin-top: 286px;
+}
+#hours{
+    position: absolute;
+    z-index: 7;
+    width: 100px;
+    height: 100px;
+    background-image: url(HORAS_RELOJ.png);
+    background-size: 100%;
+    margin-left: 2565px;
+    margin-top: 385px;
+    animation-name: clock;
+    animation-duration: 5400s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+#minutes{
+    position: absolute;
+    z-index: 7;
+    width: 150px;
+    height: 150px;
+    background-image: url(MINUTERO.png);
+    background-size: 100%;
+    margin-left: 2540px;
+    margin-top: 360px;
+    animation-name: clock;
+    animation-duration: 450s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+}
+#seconds{
+    position: absolute;
+    z-index: 8;
+    width: 150px;
+    height: 150px;
+    background-image: url(SECUNDERO.png);
+    background-size: 100%;
+    margin-left: 2540px;
+    margin-top: 360px;
+    animation-name: clock;
+    animation-duration: 7.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes clock{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+#light{
+    position: absolUte;
+    z-index: 9;
+    width: 250px;
+    height: 210px;
+    background-image: url(BOMBILLA.png);
+    background-size: 100%;
+    margin-left: 450px;
+    margin-top: 250px;
+    animation-name: light;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes light{
+    0%{
+        background-image: url(BOMBILLA.png);
+    }
+    100%{
+        background-image: url(BOMBILLA_LIT.png);
+    }
+}
+#guitar{
+    position: absolUte;
+    z-index: 25;
+    width: 800px;
+    height: 800px;
+    background-image: url(GUITARRA.png);
+    background-size: 100%;
+    margin-left: 2470px;
+    margin-top: 700px;
+}
+#guitar:hover{
+
+    animation-name: move;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    transition: 2s;
+}
+#tenis_paddles{
+    position: absolute;
+    z-index: 11;
+    width: 600px;
+    height: 600px;
+    background-image: url(TENNIS_PADDLES.png);
+    background-size: 100%;
+    margin-left: 300px;
+    margin-top: 1080px;
+}
+#tenis_paddles:hover{
+
+    animation-name: move;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    transition: 2s;
+}
+#tenis_ball{
+    position: absolute;
+    z-index: 12;
+    width: 200px;
+    height: 200px;
+    background-image: url(TENNIS_BALL.png);
+    background-size: 100%;
+    margin-left: 2890px;
+    margin-top: 1550px;
+    animation-name: ball;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes ball{
+    0%{
+        transform: translate(0)rotate(-50deg);
+        
+    }
+    100%{
+        transform: translate(-200px) rotate(-360deg);
+        
+    }
+}
+#wine_bottle{
+    position: absolute;
+    z-index: 13;
+    width: 400px;
+    height: 400px;
+    background-image: url(WINE_BOTTLE.png);
+    background-size: 100%;
+    margin-left: 600px;
+    margin-top: 1840px;
+}
+#wine_bottle:hover{
+
+    animation-name: move;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    transition: 2s;
+}
+#portrait{
+    position: absolute;
+    z-index: 26;
+    width: 750px;
+    height: 750px;
+    background-image: url(RETRATO.png);
+    background-size: 100%;
+    margin-left: 1620px;
+    margin-top: 120px;
+}
+#portrait:hover{
+
+    animation-name: move;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    transition: 2s;
+}
+#safe{
+    position: absolute;
+    z-index: 21;
+    width: 600px;
+    height: 600px;
+    background-image: url(CAJA_FUERTE.png);
+    background-size: 100%;
+    margin-left: 3100px;
+    margin-top: 1350px;
+}
+#safe:hover{
+
+    animation-name: move;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    transition: 2s;
+}
+
+#book{
+    position: absolute;
+    z-index: 23;
+    width: 473px;
+    height: 210px;
+    background-image: url(BOOK.png);
+    background-size: 100%;
+    margin-left: 700px;
+    margin-top: 1600px;
+}
+#book:hover{
+
+    animation-name: move;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    transition: 2s;
+}
+#bra{
+    position: absolute;
+    z-index: 17;
+    width: 600px;
+    height: 600px;
+    background-image: url(BRA.png);
+    background-size: 100%;
+    margin-left: 2330px;
+    margin-top: 1600px;
+}
+#bra:hover{
+
+    animation-name: move;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    transition: 2s;
+}
+#mag_glass{
+    position: absolute;
+    z-index: 18;
+    width: 300px;
+    height: 300px;
+    background-image: url(LUPA.png);
+    background-size: 100%;
+    margin-left: 3000px;
+    margin-top: 1900px;
+}
+#mag_glass:hover{
+
+    animation-name: move;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    transition: 2s;
+}
+#keys{
+    position: absolute;
+    z-index: 19;
+    width: 300px;
+    height: 300px;
+    background-image: url(KEYS.png);
+    background-size: 100%;
+    margin-left: 3480px;
+    margin-top: 1900px;
+}
+#keys:hover{
+ 
+    animation-name: move;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    transition: 2s;
+}
+#pencil{
+    position: absolute;
+    z-index: 20;
+    width: 300px;
+    height: 300px;
+    background-image: url(PENCIL.png);
+    background-size: 100%;
+    margin-left: 320px;
+    margin-top: 1825px;
+}
+#pencil:hover{
+
+    animation-name: move;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    transition: 2s;
+}
+#tie{
+    position: absolute;
+    z-index: 24;
+    width: 500px;
+    height: 500px;
+    background-image: url(CORBATA.png);
+    background-size: 100%;
+    margin-left: 1300px;
+    margin-top: 1800px;
+}
+#tie:hover{
+
+    animation-name: move;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    transition: 2s;
+
+}
+#certificate{
+    position: absolute;
+    z-index: 22;
+    width: 500px;
+    height: 500px;
+    background-image: url(CERTIFICADO.png);
+    background-size: 100%;
+    margin-left: 3270px;
+    margin-top: 370px;
+}
+#certificate:hover{
+
+    animation-name: move;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    transition: 2s;
+}
+#popup{
+    position: absolute;
+    z-index: 50;
+    width: 500px;
+    height: 500px;
+    background-image: url(nothing.png);
+    background-size: 100%;
+    margin-top: 1000px;
+   opacity: 0;
+}
+#popuptxt{
+    position: absolute;
+    z-index: 50;
+    width: 500px;
+    height: 100px;
+    background-image: url(nothing.png);
+    background-size: 100%;
+    margin-top: 200px;
+    opacity: 0;
+}
+#popup_select{
+    position: absolute;
+    z-index: 50;
+    width: 500px;
+    height: 250px;
+    background-image: url(nothing.png);
+    background-size: 100%;
+    margin-top: 1000px;
+    margin-left: 3200px;
+   opacity: 1;
+    border-radius: 30px
+}
+#scene_name{
+    position: absolute;
+    z-index: 25;
+    width: 1000px;
+    height: 190px;
+    background-image: url(SCENE_NAME.png);
+    background-size: 100%;
+    margin-left: 1500px;
+    border-radius: 90px;
+}
+#lives{
+    position: absolute;
+    z-index: 26;
+    width: 800px;
+    height: 150px;
+    background-image: url(lives.png);
+    background-size: 100%;
+    margin-left: 3000px;
+}
+#lives_n{
+    position: absolute;
+    z-index: 27;
+    width: 400px;
+    height: 120px;
+    background-image: url(lives_3.png);
+    background-size: 100%;
+    margin-left: 3410px;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+#clues{
+    position: absolute;
+    z-index: 25;
+    width: 600px;
+    height: 120px;
+    background-image: url(Clues.png);
+    background-size: 100%;
+    margin-left: 100px;
+    margin-top: 20px;
+    border-radius: 90px;
+}
+#clues_n{
+    position: absolute;
+    z-index: 50;
+    width: 500px;
+    height: 500px;
+    margin-left: 470px;
+    margin-top: 30px;
+    color: red;
+    font-size: 90px;
+}
+#weapon_box{
+        position: absolute;
+    z-index: 0;
+    width: 1200px;
+    height: 700px;
+    margin-top: 2350px;
+    background-image: url(weapon_box.png);
+    background-size: 100%;
+}
+#weapon{
+            position: absolute;
+    z-index: 1;
+    width: 500px;
+    height: 400px;
+    margin-top: 2450px;
+    margin-left: 300px;
+    background-image: url(nothing.png);
+    background-size: 100%;
+}
+#murderer_box{
+        position: absolute;
+    z-index: 0;
+    width: 1150px;
+    height: 750px;
+    margin-top: 2290px;
+    margin-left: 1360px;
+    background-image: url(murderer_box.png);
+    background-size: 100%;
+}
+#man{
+    position: absolute;
+    z-index: 24;
+    width: 50px;
+    height: 100px;
+    background-image: url(nothing.png);
+    background-size: 100%;
+    margin-left: 1500px;
+    margin-top: 2500px;
+    
+}
+#woman{
+    position: absolute;
+    z-index: 24;
+    width: 50px;
+    height: 100px;
+    background-image: url(nothing.png);
+    background-size: 100%;
+    margin-left: 1800px;
+    margin-top: 2500px;
+
+}
+#boy{
+    position: absolute;
+    z-index: 24;
+    width: 50px;
+    height: 100px;
+    background-image: url(nothing.png);
+    background-size: 100%;
+    margin-left: 2100px;
+    margin-top: 2500px;
+}
+#crime_scene_box{
+    position: absolute;
+    z-index: 0;
+    width: 1200px;
+    height: 700px;
+    margin-top: 2300px;
+    margin-left: 2750px;
+    background-image: url(crime_scene_box.png);
+    background-size: 100%;
+    transition: 1s;
+}
+    #crime_scene{
+    position: absolute;
+    z-index: 24;
+    width: 700px;
+    height: 700px;
+    background-image: url(CRIME_SCENE_CORRECT_FALSE.png);
+    background-size: 100%;
+    margin-left: 3020px;
+    margin-top: 2370px;
+        font-size: 70px;
+
+}
+@keyframes crime_scene_correct{
+    0%{
+        background-image: url(CRIME_SCENE_CORRECT_FALSE.png);
+    }
+    50%{
+        background-image: url(CRIME_SCENE_CORRECT_WRONG.png);
+    }
+    100%{
+        background-image: url(CRIME_SCENE_CORRECT_FALSE.png);
+    }
+}
