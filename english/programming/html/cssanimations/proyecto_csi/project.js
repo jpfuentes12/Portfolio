@@ -214,17 +214,17 @@ document.getElementById("clues_n").innerHTML = clues + "/14";
     portrait_sld = true;
     document.getElementById("man").style.width= "300px";
     document.getElementById("man").style.height= "400px";
-    document.getElementById("man").style.backgroundImage= "url('man.png')";
+    document.getElementById("man").style.backgroundImage= "url('MAN.png')";
     document.getElementById("man").style.border= "solid black";
     document.getElementById("man").style.transition= "2s";
     document.getElementById("woman").style.width= "300px";
     document.getElementById("woman").style.height= "400px";
-    document.getElementById("woman").style.backgroundImage= "url('woman.png')";
+    document.getElementById("woman").style.backgroundImage= "url('WOMAN.png')";
     document.getElementById("woman").style.border= "solid black";
     document.getElementById("woman").style.transition= "2s";
     document.getElementById("boy").style.width= "300px";
     document.getElementById("boy").style.height= "400px";
-    document.getElementById("boy").style.backgroundImage= "url('boy.png')";
+    document.getElementById("boy").style.backgroundImage= "url('BOY.png')";
     document.getElementById("boy").style.border= "solid black";
     document.getElementById("boy").style.transition= "2s";
 }
@@ -452,25 +452,25 @@ document.getElementById("clues_n").innerHTML = clues + "/14";
 }
 man.onclick = function(){
     lits();
-    document.getElementById("woman").style.backgroundImage= "url('woman.png')";
-    document.getElementById("boy").style.backgroundImage= "url('boy.png')";
-    document.getElementById("man").style.backgroundImage = "url('man_lit.png')";
+    document.getElementById("woman").style.backgroundImage= "url('WOMAN.png')";
+    document.getElementById("boy").style.backgroundImage= "url('BOY.png')";
+    document.getElementById("man").style.backgroundImage = "url('MAN_LIT.png')";
     murderer = 1;
     variables();
 }
 woman.onclick = function(){
     lits();
-    document.getElementById("man").style.backgroundImage= "url('man.png')";
-    document.getElementById("boy").style.backgroundImage= "url('boy.png')";
-    document.getElementById("woman").style.backgroundImage = "url('woman_lit.png')";
+    document.getElementById("man").style.backgroundImage= "url('MAN.png')";
+    document.getElementById("boy").style.backgroundImage= "url('BOY.png')";
+    document.getElementById("woman").style.backgroundImage = "url('WOMAN_LIT.png')";
     murderer = 2;
     variables();
 }
 boy.onclick = function(){
     lits();
-    document.getElementById("boy").style.backgroundImage = "url('boy_lit.png')";
-     document.getElementById("man").style.backgroundImage= "url('man.png')";
-    document.getElementById("woman").style.backgroundImage= "url('woman.png')";
+    document.getElementById("boy").style.backgroundImage = "url('BOY_LIT.png')";
+     document.getElementById("man").style.backgroundImage= "url('MAN.png')";
+    document.getElementById("woman").style.backgroundImage= "url('WOMAN.png')";
     murderer = 3;
     variables();
 }
