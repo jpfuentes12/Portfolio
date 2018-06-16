@@ -19,7 +19,7 @@ skip.onclick = function(){
 
 function tut(){
     if(tutorial == 0){
-        document.getElementById("tutorial").style.backgroundImage = "url('tutorial.png')";
+        document.getElementById("tutorial").style.backgroundImage = "url('tutorial.PNG')";
         document.getElementById("back").style.opacity = 0;
     }
     if(tutorial == 1){
