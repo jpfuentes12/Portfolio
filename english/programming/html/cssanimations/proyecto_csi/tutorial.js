@@ -12,7 +12,7 @@ back.onclick = function(){
     tut();
 }
 skip.onclick = function(){
-    window.location.href = "project.html";
+    window.location.href = "noia.html";
 }
 
 
@@ -42,6 +42,6 @@ function tut(){
         document.getElementById("tutorial").style.backgroundImage = "url('tutorial_7.png')";
     }
     if(tutorial == 7){
-    window.location.href= "project.html";
+    window.location.href= "noia.html";
     }
 }
