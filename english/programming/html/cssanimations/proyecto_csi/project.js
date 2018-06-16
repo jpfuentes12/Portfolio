@@ -348,7 +348,7 @@ keys.onclick = function(){
     document.getElementById("popup").style.backgroundImage="url('KEYS_LIT.png')";
     document.getElementById("popup").style.width = "500px";
     document.getElementById("popup").style.height = "500px";
-                document.getElementById("popuptxt").style.opacity = "1";
+    document.getElementById("popuptxt").style.opacity = "1";
     document.getElementById("popuptxt").style.transition= "1s";
     document.getElementById("popuptxt").style.transform="translateX(1700px) scale(3.5)";
     document.getElementById("popuptxt").style.backgroundImage="url('KEYS_TXT.png')";
@@ -588,8 +588,11 @@ crime_scene.onclick = function(){
         window.location.href= "credits.html";
     } else {
         document.getElementById("crime_scene").style.animation= "crime_scene_correct 0.2s ease-in-out";
+        setTimeout(function(){
+            document.getElementById("crime_scene").style.animation= "";
+        },100)
         lives_n = lives_n-1;
-    }
+            }
     lives();
     if(lives_n == 0){
         document.getElementById("lives_n").style.backgroundImage = "url('nothing.png')";
