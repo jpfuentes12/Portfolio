@@ -612,7 +612,7 @@ try_again.onclick = function(){
 }
 function variables(){
     if(weapon==4 && murderer==3 && clues==14){
-    document.getElementById("crime_scene").style.backgroundImage= "url('crime_scene_correct_true.png')";
+    document.getElementById("crime_scene").style.backgroundImage= "url('CRIME_SCENE_CORRECT_TRUE.png')";
     document.getElementById("crime_scene").style.animation = "move 1s ease-in-out alternate-reverse infinite"
 }
 }
