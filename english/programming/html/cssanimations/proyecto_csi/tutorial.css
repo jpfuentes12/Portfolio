@@ -36,7 +36,7 @@
     height: 240px;
     position: absolute;
     z-index: 2;
-    background-image: url(next.png);
+    background-image: url(NEXT.png);
     background-size: 100%;
     margin-left: 2700px;
     margin-top: 2700px;
@@ -48,7 +48,7 @@
     height: 240px;
     position: absolute;
     z-index: 2;
-    background-image: url(skip.png);
+    background-image: url(SKIP.png);
     background-size: 100%;
     margin-left: 600px;
     margin-top: 2700px;
