@@ -1,0 +1,595 @@
+/*fuente usada: cambria*/
+#scene{
+    position: relative;
+    z-index:1 ;
+    width: 1900px;
+    height: 900px;
+    background-color: black;
+
+
+}
+#english{
+    position: absolute;
+    z-index: 2;
+    width: 50px;
+    height: 30px;
+    background-image: url(../fuentes/uk.png);
+    filter: grayscale(50%);
+    background-size: 100%;
+    margin-left: 30px;
+    margin-top: 15px;
+    visibility: hidden;
+    animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
+}
+#spanish{
+    position: absolute;
+    z-index: 2;
+    width: 50px;
+    height: 30px;
+    background-image: url(../fuentes/spain.png);
+    filter: grayscale(50%);
+    background-size: 100%;
+    margin-left: 110px;
+    margin-top: 10px;
+    border-radius: 9px;
+    border: solid gold;
+    visibility: hidden;
+    animation: logo 1s ease-in-out, logo_static 1s 1s infinite alternate-reverse;
+}
+#help{
+    position: absolute;
+    z-index: 2;
+    width: 50px;
+    height: 50px;
+    background-image: url(../fuentes/help.png);
+    background-size: 100%;
+    filter: saturate(6);
+    margin-left: 1820px;
+    margin-top: 15px;
+    visibility: hidden;
+    animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
+}
+#help:hover{
+    filter: brightness(2);
+    transition: 1s;
+}
+
+
+#contact_txt{
+    position: absolute;
+    z-index: 2;
+    width: 300px;
+    height: 30px;
+    background-image: url(../fuentes/contact_txt.png);
+    background-size: 100%;
+    margin-left: 1560px;
+    margin-top:22px;
+    opacity: 0;
+    transition: 0.3s;
+    transform: scale(0.2);
+}
+#help:hover + #contact_txt{
+    opacity: 1;
+    transform: scale(1);
+}
+#animation{
+    position: absolute;
+    z-index: 2;
+    background: url(../fuentes/animation.gif);
+    background-size: 100%;
+    color: white;
+    font-size: 30px;
+    width: 120px;
+    height: 120px;
+    margin-top: 350px;
+    margin-left: 180px;
+    visibility: hidden;
+    animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
+
+}
+
+#animationtxt{
+    position: absolute;
+    z-index: 3;
+    background-image: url(../fuentes/animation_txt.png);
+    background-size: 100%;
+    color: white;
+    font-size: 30px;
+    width: 130px;
+    height: 15px;
+    margin-top: 350px;
+    margin-left: 180px;
+    visibility: hidden;
+    animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
+
+}
+#illustration{
+    position: absolute;
+    z-index: 5;
+    background: url(../fuentes/illustration.gif);
+    background-size: 100%;
+    color: white;
+    font-size: 30px;
+    width: 120px;
+    height: 100px;
+    margin-top: 350px;
+    margin-left: 330px;
+    visibility: hidden;
+    animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
+
+}
+#illustrationtxt{
+        position: absolute;
+    z-index:6;
+    background-image: url(../fuentes/illustration_txt.png);
+    background-size: 100%;
+    color: white;
+    font-size: 30px;
+    width: 130px;
+    height: 15px;
+    margin-left: 50px;
+    margin-top: 350px;
+    text-align: center;
+    margin-left: 330px;
+    visibility: hidden;
+    animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
+
+}
+#illumination{
+    position: absolute;
+    z-index: 5;
+    background: url(../fuentes/illumination.gif);
+    background-size: 100%;
+    color: white;
+    font-size: 30px;
+    width: 120px;
+    height: 120px;
+    margin-left: 50px;
+    margin-top: 350px;
+    text-align: center;
+    margin-left: 480px;
+    visibility: hidden;
+    animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
+
+}
+#illuminationtxt{
+       position: absolute;
+    z-index: 6;
+    background-image: url(../fuentes/illumination_txt.png);
+    background-size: 100%;
+    color: white;
+    font-size: 30px;
+    width: 130px;
+    height: 15px;
+    margin-top: 350px;
+    text-align: center;
+    margin-left: 480px;
+    visibility: hidden;
+    animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
+ 
+}
+#modeling{
+    position: absolute;
+    z-index: 5;
+    background: url(../fuentes/modeling.gif);
+    background-size: 100%;
+    color: white;
+    font-size: 30px;
+    width: 120px;
+    height: 100px;
+    margin: 350px;
+    text-align: center;
+    margin-left: 630px;
+    visibility: hidden;
+    animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
+
+}
+#modelingtxt{
+       position: absolute;
+    z-index: 6;
+    background-image: url(../fuentes/modeling_txt.png);
+    background-size: 100%;
+    color: white;
+    font-size: 30px;
+    width: 130px;
+    height: 15px;
+    margin-left: 50px;
+    margin-top: 350px;
+    text-align: center;
+    margin-left: 640px;
+    visibility: hidden; 
+    animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
+}
+#comingsoon{
+    position: absolute;
+    z-index: 5;
+    background: url(../fuentes/comingsoon.gif);
+    background-size: 100%;
+    color: white;
+    font-size: 30px;
+    width: 120px;
+    height: 100px;
+    margin: 490px;
+    text-align: center;
+    margin-left: 630px;
+    visibility: hidden;
+    animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
+
+}
+#comingsoon_txt{
+       position: absolute;
+    z-index: 6;
+    background-image: url(../fuentes/comingsoon_txt.gif.png);
+    background-size: 100%;
+    color: white;
+    font-size: 30px;
+    width: 130px;
+    height: 15px;
+    margin-top: 500px;
+    text-align: center;
+    margin-left: 630px;
+    visibility: hidden; 
+    animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
+}
+#programming{
+    position: absolute;
+    z-index: 5;
+    background: url(../fuentes/programming.gif);
+    background-size: 100%;
+    color: white;
+    font-size: 30px;
+    width: 120px;
+    height: 100px;
+    margin: 490px;
+    text-align: center;
+    margin-left: 1230px;
+    visibility: hidden;
+    animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
+}
+#programmingtxt{
+       position: absolute;
+    z-index: 6;
+    background-image: url(../fuentes/programming_txt.png);
+    background-size: 100%;
+    color: white;
+    font-size: 30px;
+    width: 130px;
+    height: 15px;
+    margin-top: 500px;
+    margin-left: 1230px;
+    visibility: hidden;
+    animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
+}
+#sculpting{
+    position: absolute;
+    z-index: 3;
+    background: url(../fuentes/sculpting.gif);
+    background-size: 100%;
+    font-size: 30px;
+    width: 120px;
+    height: 100px;
+    margin: 350px;
+    margin-left: 1230px;
+    visibility: hidden;
+    animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
+}
+#sculptingtxt{
+       position: absolute;
+    z-index: 6;
+    background-image: url(../fuentes/sculpting_txt.png);
+    background-size: 100%;
+    color: white;
+    font-size: 30px;
+    width: 130px;
+    height: 15px;
+    margin-top: 350px;
+    text-align: center;
+    margin-left: 1225px;
+    visibility: hidden;
+    animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
+}
+#procedural_maps{
+    position: absolute;
+    z-index: 5;
+    background: url(../fuentes/procedural.gif);
+    background-size: 100%;
+    width: 120px;
+    height: 100px;
+    margin-top: 350px;
+    margin-left: 1380px;
+    visibility: hidden;
+    animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
+}
+#proceduralmapstxt{
+    position: absolute;
+    z-index: 6;
+    background-image: url(../fuentes/procedural_txt.png);
+    background-size: 100%;
+    color: white;
+    font-size: 30px;
+    width: 120px;
+    height: 40px;
+    margin-top: 330px;
+    margin-left: 1380px;
+    visibility: hidden;
+    animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
+}
+#rigging{
+    position: absolute;
+    z-index: 5;
+    background: url(../fuentes/rigging.gif);
+    background-size: 100%;
+    color: white;
+    font-size: 30px;
+    width: 120px;
+    height: 100px;
+    margin: 350px;
+    text-align: center;
+    margin-left: 1530px;
+    visibility: hidden;
+    animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
+}
+#riggingtxt{
+    position: absolute;
+    z-index: 6;
+    background-image: url(../fuentes/rigging_txt.png);
+    background-size: 100%;
+    color: white;
+    font-size: 30px;
+    width: 130px;
+    height: 15px;
+    margin-left: 50px;
+    margin-top: 350px;
+    text-align: center;
+    margin-left: 1530px;
+    visibility: hidden;
+    animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
+}
+#texturing{
+    position: absolute;
+    z-index: 5;
+    background: url(../fuentes/texturing.gif);
+    background-size: 100%;
+    color: white;
+    font-size: 30px;
+    width: 120px;
+    height: 100px;
+    margin: 350px;
+    text-align: center;
+    margin-left: 1680px;
+    visibility: hidden;
+    animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
+}
+#texturingtxt{
+    position: absolute;
+    z-index: 6;
+    background-image: url(../fuentes/texturing_txt.png);
+    background-size: 100%;
+    color: white;
+    font-size: 30px;
+    width: 130px;
+    height: 15px;
+    margin-left: 50px;
+    margin-top: 350px;
+    text-align: center;
+    margin-left: 1680px;
+    visibility: hidden;
+    animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
+}
+
+#general_txt{
+    position: absolute;
+    z-index: 6;
+    background-image: url(../fuentes/overall_video_txt.png);
+    background-size: 100%;
+    width: 300px;
+    height: 40px;
+    margin-left: 850px;
+    margin-top: 394px;
+    border-radius: 10px;
+    filter:grayscale(70%);
+    filter: brightness(1.8);
+    visibility: hidden;
+    animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
+}
+
+#video{
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 800px;
+    margin-top: 170px;
+    animation: video 10s;
+}
+#contact{
+    position: absolute;
+    z-index: 2;
+    width: 400px;
+    height: 400px;
+    background-image: url(../fuentes/contact.png);
+    background-size: 100%;
+    margin-left: 800px;
+    margin-top: 220px;
+    opacity: 1;
+    animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
+}
+
+
+#logo{
+    position: absolute;
+    z-index: 6;
+    width: 900px;
+    height: 24px;
+    background-image: url(../fuentes/gds.png);
+    background-size: 100%;
+    margin-left: 560px;
+    margin-top: 760px;
+    visibility: hidden;
+    animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
+}
+#name{
+    position: absolute;
+    z-index: 6;
+    width: 330px;
+    height: 34px;
+    background-image: url(../fuentes/name.png);
+    background-size: 100%;
+    margin-left: 846px;
+    margin-top: 800px;
+    visibility: hidden;
+    animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
+}
+#portfolio{
+    position: absolute;
+    z-index: 6;
+    width: 120px;
+    height: 20px;
+    background-image: url(../fuentes/portfolio.png);
+    background-size: 100%;
+    margin-left: 946px;
+    margin-top: 840px;
+    visibility: hidden;
+    animation: logo 1s  ease-in-out, logo_static 1s 1s infinite alternate-reverse;
+}
+@keyframes logo{
+    0%{ opacity: 0;
+        visibility: hidden;
+        transform: scale(0.6);
+    }
+    100%{opacity: 1;
+        visibility: visible;
+        transform: scale(1);
+    }
+}
+@keyframes logo_static{
+    0%{ opacity: 1;
+        visibility: visible;
+        transform: scale(0.999);
+    }
+    100%{
+        opacity: 1;
+        visibility: visible;
+        transform: scale(1);
+    }
+}
+@keyframes video {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes diamond_op{
+    0%{opacity: 0;
+        visibility: hidden;;
+       transform: translate(80px, 20px);
+    }
+    6.25%{
+        transform: translate(-40px, 60px);
+    }
+    12.5%{ opacity: 0;
+        visibility: hidden;
+        transform: translate(-140px, 120px);
+    }
+    18.75%{
+        transform: translate(-190px, 200px);
+    }
+    25%{ opacity: 1;
+        visibility: visible;
+        transform: translate(-215px, 305px);
+    }
+    31.25%{
+        transform: translate(-190px, 420px)
+    }
+    37.5%{
+        transform: translate(-120px, 510px);
+    }
+    43.75%{
+        transform: translate(-40px, 570px);
+    }
+    50%{
+        transform: translate(80px, 610px);
+    }
+    56.25%{
+        transform: translate(200px, 570px);
+    }
+    62.5%{
+        transform: translate(280px, 510px);
+    }
+    68.75%{
+        transform: translate(350px, 420px)
+    }
+    75%{
+        transform: translate(375px, 305px);
+    }
+    81.25%{
+        transform: translate(360px, 200px);
+    }
+    87.5%{
+        transform: translate(290px, 120px);
+    }
+    93.75%{
+        transform: translate(210px, 60px);
+    }
+    100%{
+        transform: translate(80px, 2px);
+    }
+}
+@keyframes diamond{
+    0%{ visibility: visible;
+       transform: translate(80px, 20px);
+    }
+    6.25%{
+        transform: translate(-50px, 60px);
+    }
+    12.5%{
+        transform: translate(-140px, 120px);
+    }
+    18.75%{
+        transform: translate(-190px, 200px);
+    }
+    25%{
+        transform: translate(-215px, 305px);
+    }
+    31.25%{
+        transform: translate(-190px, 420px)
+    }
+    37.5%{
+        transform: translate(-120px, 510px);
+    }
+    43.75%{
+        transform: translate(-40px, 570px);
+    }
+    50%{
+        transform: translate(80px, 610px);
+    }
+    56.25%{
+        transform: translate(200px, 570px);
+    }
+    62.5%{
+        transform: translate(280px, 510px);
+    }
+    68.75%{
+        transform: translate(350px, 420px)
+    }
+    75%{
+        transform: translate(375px, 305px);
+    }
+    81.25%{
+        transform: translate(360px, 200px);
+    }
+    87.5%{
+        transform: translate(290px, 120px);
+    }
+    93.75%{
+        transform: translate(210px, 60px);
+    }
+    100%{
+        transform: translate(80px, 20px);
+    }
+}
