@@ -1,0 +1,31 @@
+<!DOCTYPEhtml>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="gds.css">
+        <title>videos</title>
+    </head>
+    <body>
+        <div class="scene">
+            <video id="video" width="720px" height="500px" type="video/mp4" >
+            </video>
+                <div id="yellow"></div>
+                <div id="blue" ></div>
+                <div id="purple"></div>
+                <div id="green"></div>
+                <div id="red"></div>
+            <div id="play"></div>
+            <div id="pause"></div>
+            <div id="loop"></div>
+            <div id="volume_low" onmousedown="mousedown_l()" onmouseup="mouseup_l()"></div>
+            <div id="volume_high" onmousedown="mousedown_h()" onmouseup="mouseup_h()"></div>
+            <div id="volume_mute"></div>
+
+
+            <a href="index.html">
+            <button id="return">Return</button>
+            </a>
+        </div>
+        <script src="gds.js"></script>
+    </body>
+</html>

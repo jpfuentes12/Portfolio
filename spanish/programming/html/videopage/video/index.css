@@ -1,0 +1,18 @@
+body{
+    
+}
+.scene{
+    width: 1920px;
+    height: 1080px;
+    background-image: url("gds.png");
+    
+}
+button{
+    width: 200px;
+    height: 200px;
+    background-image: url("go.png");    
+    background-size: 200px;
+    margin-left: 850px;
+    margin-top: 850px;
+    border-radius: 200px;
+}
