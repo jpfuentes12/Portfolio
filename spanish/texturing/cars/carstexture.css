@@ -1,0 +1,1074 @@
+#scene{
+    position: relative;
+    z-index:0 ;
+    width: 1900px;
+    height: 2400px;
+    background-image: url(../../../fuentes/subscene_bg_3.png);
+
+}
+#english{
+    position: absolute;
+    z-index: 2;
+    width: 50px;
+    height: 30px;
+    background-image: url(../../../fuentes/uk.png);
+    filter: grayscale(50%);
+    background-size: 100%;
+    margin-left: 130px;
+    margin-top: 15px;
+    opacity: 0;
+    animation: appear 2s 3.2s, appear_move 2s 5.2s infinite;
+}
+#spanish{
+    position: absolute;
+    z-index: 2;
+    width: 50px;
+    height: 30px;
+    background-image: url(../../../fuentes/spain.png);
+    filter: grayscale(50%);
+    background-size: 100%;
+    margin-left: 210px;
+    margin-top: 10px;
+    border-radius: 9px;
+    border: solid gold;
+    opacity: 0;
+    animation: appear 2s 3.4s, appear_move 2s 5.4s infinite;
+}
+#help{
+    position: absolute;
+    z-index: 2;
+    width: 50px;
+    height: 50px;
+    background-image: url(../../../fuentes/help.png);
+    background-size: 100%;
+    filter: saturate(6);
+    margin-left: 1820px;
+    margin-top: 15px;
+    transition: 1s;
+    opacity: 0;
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+#help:hover{
+    filter: brightness(2);
+    transition: 1s;
+}
+
+
+#contact_txt{
+    position: absolute;
+    z-index: 2;
+    width: 300px;
+    height: 30px;
+    background-image: url(../../../fuentes/contact_txt.png);
+    background-size: 100%;
+    margin-left: 1560px;
+    margin-top:22px;
+    opacity: 0;
+    transition: 0.3s;
+    transform: scale(0.2);
+}
+#help:hover + #contact_txt{
+    opacity: 1;
+    transform: scale(1);
+}
+#menu{
+    position: absolute;
+    z-index: 3;
+    width: 85px;
+    height: 49px;
+    background-image: url(../../../fuentes/menu.png);
+    background-size: 100%;
+    margin-left: 15px;
+    margin-top: 5px;
+    opacity: 0;
+    animation: appear 2s 3s, appear_move 2s 5s infinite;
+}
+
+#menu_cont{
+    position: absolute;
+    z-index: 2;
+    width: 120px;
+    height: 820px;
+    margin-top: -900px;
+    opacity: 0;
+    transition: 0.5s;
+    background-color: black;
+}
+#home{
+    position: absolute;
+    z-index: 6;
+    background: url(../../../fuentes/animation2.gif);
+    background-size: 100%;
+    width: 100px;
+    height: 100px;
+    margin-top: 0px;
+    margin-left: 14px;
+}
+#home:hover + #home_txt{
+    transform: scale(1) translate(60px);
+    opacity: 1;
+    transition: 0.5s; 
+}
+#home_txt{
+    position: absolute;
+    z-index: 6;
+    width: 160px;
+    height: 20px;
+    background-image: url(../../../fuentes/home.png);
+    background-size: 100%;
+    margin-top: 40px;
+    margin-left: 0px;
+    transform: scale(0.2);
+    opacity: 0;
+}
+
+#animation{
+    position: absolute;
+    z-index: 6;
+    background: url(../../../fuentes/animation.gif);
+    background-size: 100%;
+    width: 120px;
+    height: 120px;
+    margin-top: 90px;
+
+}
+#animation:hover + #animation_txt{
+    transform: scale(1) translate(60px);
+    opacity: 1;
+    transition: 0.5s;
+}
+#animation_txt{
+    position: absolute;
+    z-index: 6;
+    width: 160px;
+    height: 20px;
+    background-image: url(../../../fuentes/animation_txt.png);
+    background-size: 100%;
+    margin-top: 130px;
+    margin-left: 20px;
+    transform: scale(0.2);
+    opacity: 0;
+    transition: 0.5s;
+}
+#illustration{
+    position: absolute;
+    z-index: 5;
+    background: url(../../../fuentes/illustration.gif);
+    background-size: 100%;
+    width: 120px;
+    height: 100px;
+    margin-top: 160px;
+    margin-left: 0px;
+
+}
+
+#illustration_txt{
+    position: absolute;
+    z-index: 6;
+    width: 160px;
+    height: 20px;
+    background-image: url(../../../fuentes/illustration_txt.png);
+    background-size: 100%;
+    margin-top: 205px;
+    margin-left: 30px;
+    transform: scale(0.2);
+    opacity: 0;
+    transition: 0.5s;
+}
+#illustration:hover + #illustration_txt{
+       transform: scale(1) translate(60px);
+    opacity: 1;
+    transition: 0.5s; 
+}
+
+#illumination{
+    position: absolute;
+    z-index: 5;
+    background: url(../../../fuentes/illumination.gif);
+    background-size: 100%;
+    width: 110px;
+    height: 110px;
+    margin-top: 240px;
+    margin-left: 6px;
+
+}
+
+#illumination_txt{
+    position: absolute;
+    z-index: 6;
+    width: 160px;
+    height: 20px;
+    background-image: url(../../../fuentes/illumination_txt.png);
+    background-size: 100%;
+    margin-top: 280px;
+    margin-left: 30px;
+    transform: scale(0.2);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#illumination:hover + #illumination_txt{
+    transform: scale(1) translate(60px);
+    opacity: 1;
+    transition: 0.5s;
+}
+#modeling{
+    position: absolute;
+    z-index: 5;
+    background: url(../../../fuentes/modeling.gif);
+    background-size: 100%;
+    width: 120px;
+    height: 100px;
+    margin-top: 310px;
+}
+#modeling_txt{
+    position: absolute;
+    z-index: 6;
+    width: 160px;
+    height: 20px;
+    background-image: url(../../../fuentes/modeling_txt.png);
+    background-size: 100%;
+    margin-top: 354px;
+    margin-left: 40px;
+    transform: scale(0.2);
+    opacity: 0;
+    transition: 0.5s;
+}
+#modeling:hover + #modeling_txt{
+       transform: scale(1) translate(60px);
+    opacity: 1;
+    transition: 0.5s; 
+}
+#programming{
+    position: absolute;
+    z-index: 5;
+    background: url(../../../fuentes/programming.gif);
+    background-size: 100%;
+    width: 120px;
+    height: 100px;
+    margin-top: 390px;
+
+}
+#programming_txt{
+    position: absolute;
+    z-index: 6;
+    width: 160px;
+    height: 20px;
+    background-image: url(../../../fuentes/programming_txt.png);
+    background-size: 100%;
+    margin-top: 435px;
+    margin-left: 40px;
+    transform: scale(0.2);
+    opacity: 0;
+    transition: 0.5s;
+}
+#programming:hover + #programming_txt{
+       transform: scale(1) translate(60px);
+    opacity: 1;
+    transition: 0.5s; 
+}
+#sculpting{
+    position: absolute;
+    z-index: 4;
+    background: url(../../../fuentes/sculpting.gif);
+    background-size: 100%;
+    width: 120px;
+    height: 100px;
+    margin-top: 470px;
+
+}
+#sculpting_txt{
+    position: absolute;
+    z-index: 6;
+    width: 160px;
+    height: 20px;
+    background-image: url(../../../fuentes/sculpting_txt.png);
+    background-size: 100%;
+    margin-top: 515px;
+    margin-left: 30px;
+    transform: scale(0.2);
+    opacity: 0;
+    transition: 0.5s;
+}
+#sculpting:hover + #sculpting_txt{
+       transform: scale(1) translate(60px);
+    opacity: 1;
+    transition: 0.5s; 
+}
+#procedural_maps{
+    position: absolute;
+    z-index: 4;
+    background: url(../../../fuentes/procedural.gif);
+    background-size: 100%;
+    width: 120px;
+    height: 100px;
+    margin-top: 560px;
+
+}
+#procedural_maps_txt{
+    position: absolute;
+    z-index: 6;
+    width: 130px;
+    height: 50px;
+    background-image: url(../../../fuentes/procedural_txt.png);
+    background-size: 100%;
+    margin-top: 590px;
+    margin-left: 60px;
+    transform: scale(0.2);
+    opacity: 0;
+    transition: 0.5s;
+}
+#procedural_maps:hover + #procedural_maps_txt{
+       transform: scale(1) translate(60px);
+    opacity: 1;
+    transition: 0.5s; 
+}
+#rigging{
+    position: absolute;
+    z-index: 3;
+    background: url(../../../fuentes/rigging.gif);
+    background-size: 100%;
+    width: 120px;
+    height: 100px;
+    margin-top: 650px;
+
+
+}
+#rigging_txt{
+    position: absolute;
+    z-index: 6;
+    width: 160px;
+    height: 20px;
+    background-image: url(../../../fuentes/rigging_txt.png);
+    background-size: 100%;
+    margin-top: 695px;
+    margin-left: 40px;
+    transform: scale(0.2);
+    opacity: 0;
+    transition: 0.5s;
+}
+#rigging:hover + #rigging_txt{
+       transform: scale(1) translate(60px);
+    opacity: 1;
+    transition: 0.5s; 
+}
+#texturing{
+    position: absolute;
+    z-index: 2;
+    background: url(../../../fuentes/texturing.gif);
+    background-size: 100%;
+    width: 120px;
+    height: 100px;
+    margin-top: 720px;
+    opacity: 0.3;
+    filter: grayscale(100%);
+}
+#texturing_txt{
+    position: absolute;
+    z-index: 6;
+    width: 160px;
+    height: 20px;
+    background-image: url(../../../fuentes/texturing_txt.png);
+    background-size: 100%;
+    margin-top: 765px;
+    margin-left: 40px;
+    transform: scale(0.2);
+    opacity: 0;
+    transition: 0.5s;
+}
+#texturing:hover + #texturing_txt{
+       transform: scale(1) translate(60px);
+    opacity: 1;
+    transition: 0.5s; 
+}
+#page{
+    position: absolute;
+    z-index: 5;
+    width: 150px;
+    height: 150px;
+    background: url("../../../fuentes/texturing.gif");
+    background-size: 100%;
+    margin-left: 875px;
+    margin-top: 0px;
+    animation: page 4s;
+    opacity: 0.7;
+}
+#back{
+    position: absolute;
+    z-index: 5;
+    width: 240px;
+    height: 30px;
+    background: url("../../../fuentes/texturing_txt.png");
+    background-size: 100%;
+    margin-left: -35px;
+    margin-top: 0px;
+    opacity: 0;
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+@keyframes page{
+    0%{
+        opacity: 0;
+        transform: scale(0.2)translateY(0px);
+    }
+    12.5%{
+        opacity: 0;
+        transform: scale(3)translateY(130px);
+    }
+    50%{
+        opacity: 1;
+        transform: scale(3)translateY(130px);
+    }
+    70%{
+        
+        opacity: 1;
+        transform: scale(3)translateY(130px);
+    
+    }
+    100%{
+        opacity: 0.7;
+        transform: scale(1);
+    }
+}
+#page_name{
+    position: absolute;
+    z-index: 6;
+    width: 400px;
+    height: 50px;
+    background-image: url(../../../fuentes/cars_txt.png);
+    background-size: 100%;
+    margin-left: 750px;
+    margin-top: 600px;
+    opacity: 0;
+    transform: scale(0.5);
+    animation: page_name 2s 1s;
+}
+@keyframes page_name{
+    0%{
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    90%{
+        opacity: 1;
+        transform: scale(1);
+    }
+    100%{
+        opacity: 0;
+        transform: scale(0.5);
+    }
+}
+
+@keyframes appear{
+    0%{
+        opacity: 0;
+        transform: scale(0.6);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+@keyframes appear_move{
+    0%{
+        opacity: 1;
+        transform: scale(1);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(0.999);
+    }
+}
+#viewer{
+    position: absolute;
+    z-index: 3;
+    width: 960px;
+    height: 540px;
+    background-image: url("../../../fuentes/viewer.png");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 470px;
+    margin-top: 200px;
+    opacity: 0;
+    border: solid gray;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+
+}
+#audi_back{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 160px;
+    background-image: url("audi_back.png");
+    background-size: 100%;
+    margin-left: 260px;
+    margin-top: 900px;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+#audi_back_txt{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 40px;
+    background-image: url("../../../fuentes/audi_back_txt.png");;
+    background-size: 100%;
+    margin-left: 260px;
+    margin-top: 830px;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+
+#audi_front{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 160px;
+    background-image: url("audi_front.png");
+    background-size: 100%;
+    margin-left: 610px;
+    margin-top: 900px;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+#audi_front_txt{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 40px;
+    background-image: url("../../../fuentes/audi_front_txt.png");;
+    background-size: 100%;
+    margin-left: 610px;
+    margin-top: 830px;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+#audi_side{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 160px;
+    background-image: url("audi_side.png");
+    background-size: 100%;
+    margin-left: 960px;
+    margin-top: 900px;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+#audi_side_txt{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 40px;
+    background-image: url("../../../fuentes/audi_side_txt.png");;
+    background-size: 100%;
+    margin-left:970px;
+    margin-top: 830px;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+#cadillac_back{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 160px;
+    background-image: url("cadillac_back.png");
+    background-size: 100%;
+    margin-left: 1330px;
+    margin-top: 900px;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+#cadillac_back_txt{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 40px;
+    background-image: url("../../../fuentes/cadillac_back_txt.png");;
+    background-size: 100%;
+    margin-left: 1330px;
+    margin-top: 830px;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+#cadillac_front{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 160px;
+    background-image: url("cadillac_front.png");
+    background-size: 100%;
+    margin-left: 260px;
+    margin-top: 1190px;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+#cadillac_front_txt{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 40px;
+    background-image: url("../../../fuentes/cadillac_front.png");;
+    background-size: 100%;
+    margin-left: 260px;
+    margin-top: 1120px;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+
+#cadillac_mercedes{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 160px;
+    background-image: url("cadillac_mercedes.png");
+    background-size: 100%;
+    margin-left: 610px;
+    margin-top: 1190px;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+#cadillac_mercedes_txt{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 40px;
+    background-image: url("../../../fuentes/cadillac_mercedes_txt.png");;
+    background-size: 100%;
+    margin-left: 610px;
+    margin-top: 1120px;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+#cadillac_photo{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 160px;
+    background-image: url("cadillac_photo.png");
+    background-size: 100%;
+    margin-left: 960px;
+    margin-top: 1190px;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+#cadillac_photo_txt{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 40px;
+    background-image: url("../../../fuentes/cadillac_photo_txt.png");;
+    background-size: 100%;
+    margin-left:970px;
+    margin-top: 1120px;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+#cadillac_side{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 160px;
+    background-image: url("cadillac_side.png");
+    background-size: 100%;
+    margin-left: 1330px;
+    margin-top: 1190px;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+#cadillac_side_txt{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 40px;
+    background-image: url("../../../fuentes/cadillac_side_txt.png");;
+    background-size: 100%;
+    margin-left: 1330px;
+    margin-top: 1120px;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+
+#car_video{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 160px;
+    background-image: url("car_video.png");
+    background-size: 100%;
+    margin-left: 260px;
+    margin-top: 1480px;
+    background-position: center;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+#car_video_txt{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 40px;
+    background-image: url("../../../fuentes/car_video_txt.png");
+    background-size: 100%;
+    margin-left: 260px;
+    margin-top: 1420px;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+
+#cars_textures{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 160px;
+    background-image: url("car_textures.png");
+    background-position: center;
+    background-size: 100%;
+    margin-left: 610px;
+    margin-top: 1480px;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+#cars_textures_txt{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 40px;
+    background-image: url("../../../fuentes/cars_textures_txt.png");;
+    background-size: 100%;
+    margin-left: 610px;
+    margin-top: 1420px;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+#ferrari_back{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 160px;
+    background-image: url("ferrari_back.png");
+    background-size: 100%;
+    margin-left: 960px;
+    margin-top: 1480px;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+#ferrari_back_txt{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 40px;
+    background-image: url("../../../fuentes/ferrari_back_txt.png");;
+    background-size: 100%;
+    margin-left:970px;
+    margin-top: 1420px;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+#ferrari_front{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 160px;
+    background-image: url("ferrari_front.png");
+    background-size: 100%;
+    margin-left: 1330px;
+    margin-top: 1480px;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+#ferrari_front_txt{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 40px;
+    background-image: url("../../../fuentes/ferrari_front.png");;
+    background-size: 100%;
+    margin-left: 1330px;
+    margin-top: 1420px;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+#ferrari_side{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 160px;
+    background-image: url("ferrari_side.png");
+    background-size: 100%;
+    margin-left: 260px;
+    margin-top: 2060px;
+    background-position: center;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+#ferrari_side_txt{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 40px;
+    background-image: url("../../../fuentes/ferrari_side_txt.png");
+    background-size: 100%;
+    margin-left: 260px;
+    margin-top: 1970px;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+
+#final_cars{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 160px;
+    background-image: url("final_cars.png");
+    background-position: center;
+    background-size: 100%;
+    margin-left: 610px;
+    margin-top: 2060px;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+#final_cars_txt{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 40px;
+    background-image: url("../../../fuentes/final_cars_txt.png");;
+    background-size: 100%;
+    margin-left: 610px;
+    margin-top: 1970px;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+#mercedes_3_4{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 160px;
+    background-image: url("mercedes_3_4.png");
+    background-size: 100%;
+    margin-left: 960px;
+    margin-top: 1770px;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+#mercedes_3_4_txt{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 40px;
+    background-image: url("../../../fuentes/mercedes_3_4_txt.png");;
+    background-size: 100%;
+    margin-left:970px;
+    margin-top: 1680px;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+#mercedes_back{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 160px;
+    background-image: url("mercedes_back.png");
+    background-size: 100%;
+    margin-left: 1330px;
+    margin-top: 1770px;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+#mercedes_back_txt{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 40px;
+    background-image: url("../../../fuentes/mercedes_back.png");;
+    background-size: 100%;
+    margin-left: 1330px;
+    margin-top: 1680px;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+#mercedes_front{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 160px;
+    background-image: url("mercedes_front.png");
+    background-size: 100%;
+    margin-left: 260px;
+    margin-top: 1770px;
+    background-position: center;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+#mercedes_front_txt{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 40px;
+    background-image: url("../../../fuentes/mercedes_front_txt.png");
+    background-size: 100%;
+    margin-left: 260px;
+    margin-top: 1680px;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+
+#mercedes_side{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 160px;
+    background-image: url("mercedes_side.png");
+    background-position: center;
+    background-size: 100%;
+    margin-left: 610px;
+    margin-top: 1770px;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+#mercedes_side_txt{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 40px;
+    background-image: url("../../../fuentes/mercedes_side_txt.png");;
+    background-size: 100%;
+    margin-left: 610px;
+    margin-top: 1680px;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+#snow{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 160px;
+    background-image: url("snow.png");
+    background-size: 100%;
+    margin-left: 960px;
+    margin-top: 2060px;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+#snow_txt{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 40px;
+    background-image: url("../../../fuentes/snow_txt.png");;
+    background-size: 100%;
+    margin-left:970px;
+    margin-top: 1970px;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+#sunset{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 160px;
+    background-image: url("sunset.png");
+    background-size: 100%;
+    margin-left: 1330px;
+    margin-top: 2060px;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+#sunset_txt{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 40px;
+    background-image: url("../../../fuentes/audi_sunset_txt.png");;
+    background-size: 100%;
+    margin-left: 1330px;
+    margin-top: 1970px;
+    opacity: 0;
+    border-radius: 10px;
+    transform: scale(0.5);
+    animation: appear 2s 3.6s, appear_move 2s 5.6s infinite;
+}
+
+
+#video{
+    width: 960px;
+    opacity: 0;
+}
